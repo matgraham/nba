@@ -13,11 +13,14 @@ browser = webdriver.Firefox()
 def stats():
     browser.get('http://stats.nba.com/game/0021700001/')
     stats = browser.find_element_by_class_name('nba-stat-table')
-    ofile = open('ttest.csv', "w")
-    csvwriter = csv.writer(ofile)
-    csvwriter.writerow(stats.text)
+    ofile = open('ttest.csv', "w", newline='\n')
+    writer = csv.writer(ofile)
+    statsText = stats.text
+    statsText = statsText.split('\n')
+    for i in statsText:
+        writer.writerow(i)
+        print(statsText)
     ofile.close()
-    #df = pd.DataFrame(eval(stats.text))
-    #print(df.head()) 
-    
+        
 stats()
+browser.quit()
