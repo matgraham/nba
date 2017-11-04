@@ -1266,3 +1266,414 @@ Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrp
 1509322594358	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
 1509322598691	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
 1509322600240	Marionette	INFO	New connections will no longer be accepted
+1509812536244	geckodriver	INFO	geckodriver 0.19.0
+1509812536276	geckodriver	INFO	Listening on 127.0.0.1:42330
+1509812538102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LE265b0OzwJ5"
+1509812546575	Marionette	INFO	Enabled via --marionette
+1509812559061	Marionette	INFO	Listening on port 34447
+1509812559220	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509812559487	Marionette	DEBUG	loaded listener.js
+1509812559710	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509812560211	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509812560219	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509812564019	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509812572255	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509812572259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509812572489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509812573052	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509812576886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509812576912	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=4572942793550725927&ex=appnexus.com"
+1509812578617	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509812578634	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509812578640	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509812579204	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509812586367	Marionette	INFO	New connections will no longer be accepted
+1509817809164	geckodriver	INFO	geckodriver 0.19.0
+1509817809183	geckodriver	INFO	Listening on 127.0.0.1:57124
+1509817810951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l0C2Hzrrg5jP"
+1509817814555	Marionette	INFO	Enabled via --marionette
+1509817824232	Marionette	INFO	Listening on port 35088
+1509817824498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509817824785	Marionette	DEBUG	loaded listener.js
+1509817824942	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509817826344	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509817826346	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509817832624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509817835813	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1509817992906	geckodriver	INFO	geckodriver 0.19.0
+1509817992923	geckodriver	INFO	Listening on 127.0.0.1:44754
+1509817994706	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zB5ax7IxsZmq"
+1509817998299	Marionette	INFO	Enabled via --marionette
+1509818006876	Marionette	INFO	Listening on port 38710
+1509818006974	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509818007268	Marionette	DEBUG	loaded listener.js
+1509818007541	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818007867	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818007872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818012008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818020931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818025392	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818025502	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818026176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818026696	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=4876315989648537444&ex=appnexus.com"
+1509818027175	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818027187	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818027198	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818029403	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818029449	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818140629	geckodriver	INFO	geckodriver 0.19.0
+1509818140649	geckodriver	INFO	Listening on 127.0.0.1:38224
+1509818142438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eYhlk4Br78gV"
+1509818146098	Marionette	INFO	Enabled via --marionette
+1509818154949	Marionette	INFO	Listening on port 46864
+1509818155150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818155454	Marionette	DEBUG	loaded listener.js
+1509818155715	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818156008	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818156012	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818159735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818168569	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818168909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818169063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818172905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818173465	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=7193856340060525292&ex=appnexus.com"
+1509818174188	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818174199	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818174209	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818175235	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818175278	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818175743	Marionette	INFO	New connections will no longer be accepted
+1509818232456	geckodriver	INFO	geckodriver 0.19.0
+1509818232473	geckodriver	INFO	Listening on 127.0.0.1:60993
+1509818234262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TMsFjZkNyzZ8"
+1509818237886	Marionette	INFO	Enabled via --marionette
+1509818246485	Marionette	INFO	Listening on port 34355
+1509818246623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818246910	Marionette	DEBUG	loaded listener.js
+1509818247099	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818247644	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818247646	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818254622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818261745	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818266951	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818266972	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818267861	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818268866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818269523	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=242734438241493888&ex=appnexus.com"
+1509818270078	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818270087	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818270103	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818270145	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818560360	geckodriver	INFO	geckodriver 0.19.0
+1509818560379	geckodriver	INFO	Listening on 127.0.0.1:39083
+1509818562168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JdLQX007CA0m"
+1509818565908	Marionette	INFO	Enabled via --marionette
+1509818574504	Marionette	INFO	Listening on port 40622
+1509818574624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509818574909	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818575215	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818575558	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818575564	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818582522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818591726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818591734	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818591861	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818592512	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818595886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818596031	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=4943491124920728919&ex=appnexus.com"
+1509818597989	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818598000	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818598008	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818598481	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818674643	geckodriver	INFO	geckodriver 0.19.0
+1509818674662	geckodriver	INFO	Listening on 127.0.0.1:36112
+1509818676435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ietd4qfaLOB5"
+1509818680032	Marionette	INFO	Enabled via --marionette
+1509818688583	Marionette	INFO	Listening on port 43246
+1509818688706	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509818688996	Marionette	DEBUG	loaded listener.js
+1509818689261	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818689616	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818689620	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818693933	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818706755	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818707163	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818707931	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818708176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818709227	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818709413	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=1179297230074550494&ex=appnexus.com"
+1509818709897	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818709906	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818709918	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818709967	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818738358	geckodriver	INFO	geckodriver 0.19.0
+1509818738376	geckodriver	INFO	Listening on 127.0.0.1:56046
+1509818740198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kMGdul34haf4"
+1509818744062	Marionette	INFO	Enabled via --marionette
+1509818752953	Marionette	INFO	Listening on port 39325
+1509818753174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509818753526	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818753726	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818753990	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818753991	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818757725	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818767588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818772014	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818772064	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818772554	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818773900	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818774208	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=8012966947351910100&ex=appnexus.com"
+1509818774771	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818774780	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818774788	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818774842	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818786498	Marionette	INFO	New connections will no longer be accepted
+[Child 6744] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6744] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1509818879192	geckodriver	INFO	geckodriver 0.19.0
+1509818879209	geckodriver	INFO	Listening on 127.0.0.1:53088
+1509818880990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yDQLGU07rs8O"
+1509818885433	Marionette	INFO	Enabled via --marionette
+1509818893812	Marionette	INFO	Listening on port 38753
+1509818894014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509818894331	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509818894627	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509818894823	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509818894825	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509818899225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509818904643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818908563	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818912162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818912473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818912601	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=5792004092654974235&ex=appnexus.com"
+1509818912893	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509818912912	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509818912923	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509818914918	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509818914956	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509818943315	Marionette	INFO	New connections will no longer be accepted
+[Child 6916] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6916] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1509819053499	geckodriver	INFO	geckodriver 0.19.0
+1509819053517	geckodriver	INFO	Listening on 127.0.0.1:49668
+1509819055301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8stz7ApvaqSv"
+1509819059138	Marionette	INFO	Enabled via --marionette
+1509819068337	Marionette	INFO	Listening on port 44048
+1509819068556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509819068955	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509819069437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509819069683	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509819069686	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509819073643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819075951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509819080195	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819089003	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819089809	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819090508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819090532	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=4166016563215911628&ex=appnexus.com"
+1509819090981	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819090988	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819090998	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819091037	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509819111859	Marionette	INFO	New connections will no longer be accepted
+1509819174385	geckodriver	INFO	geckodriver 0.19.0
+1509819174403	geckodriver	INFO	Listening on 127.0.0.1:56107
+1509819176183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s7B96d7o0KDT"
+1509819179815	Marionette	INFO	Enabled via --marionette
+1509819188520	Marionette	INFO	Listening on port 43831
+1509819188850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509819189300	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509819189528	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509819189754	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509819189755	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509819193946	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509819203492	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819203533	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819207137	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819207566	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819208008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819208566	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=4125836689182003900&ex=appnexus.com"
+1509819209741	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819209750	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819209760	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819210087	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509819232395	Marionette	INFO	New connections will no longer be accepted
+[Child 7227] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1509819776786	geckodriver	INFO	geckodriver 0.19.0
+1509819776803	geckodriver	INFO	Listening on 127.0.0.1:39026
+1509819778603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WQtlQbaW2R4G"
+1509819782264	Marionette	INFO	Enabled via --marionette
+1509819790858	Marionette	INFO	Listening on port 42531
+1509819790976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509819791300	Marionette	DEBUG	loaded listener.js
+1509819791746	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509819791963	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509819791965	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509819796476	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509819805235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819806645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819810328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819810878	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819811409	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819811624	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=3620335263799118899&ex=appnexus.com"
+1509819812191	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819812206	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819812214	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819812457	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509819828835	Marionette	INFO	New connections will no longer be accepted
+1509819912871	geckodriver	INFO	geckodriver 0.19.0
+1509819912891	geckodriver	INFO	Listening on 127.0.0.1:33752
+1509819914674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dV4WZWpfbU3N"
+1509819918669	Marionette	INFO	Enabled via --marionette
+1509819927615	Marionette	INFO	Listening on port 33987
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509819927741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509819928022	Marionette	DEBUG	loaded listener.js
+1509819928236	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509819928547	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509819928549	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509819932436	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509819945599	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819945634	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819945992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819947209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819947324	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=9190517962715566727&ex=appnexus.com"
+1509819947847	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509819947858	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509819947866	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509819948609	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509819948659	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509819970124	Marionette	INFO	New connections will no longer be accepted
+1509820260495	geckodriver	INFO	geckodriver 0.19.0
+1509820260512	geckodriver	INFO	Listening on 127.0.0.1:46159
+1509820262293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.34JroZUmukeB"
+1509820265948	Marionette	INFO	Enabled via --marionette
+1509820274646	Marionette	INFO	Listening on port 37185
+1509820274850	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509820275144	Marionette	DEBUG	loaded listener.js
+1509820275352	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509820275716	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509820275720	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509820279166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509820288960	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820288970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820289625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820293653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820293808	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=6901350761580078052&ex=appnexus.com"
+1509820294691	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820294698	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820294705	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820296037	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820296063	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509820317698	Marionette	INFO	New connections will no longer be accepted
+[Child 8396] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8396] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1509820380622	geckodriver	INFO	geckodriver 0.19.0
+1509820380641	geckodriver	INFO	Listening on 127.0.0.1:42361
+1509820382417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HbNkrB6oyo83"
+1509820386154	Marionette	INFO	Enabled via --marionette
+1509820394791	Marionette	INFO	Listening on port 46156
+1509820394980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509820395332	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509820395573	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509820395851	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509820395854	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509820399714	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509820408865	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820412606	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820412726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820413720	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820414237	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=9165824669461417633&ex=appnexus.com"
+1509820414720	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820414732	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820414741	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820415488	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820415758	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509820426981	Marionette	INFO	New connections will no longer be accepted
+1509820534864	geckodriver	INFO	geckodriver 0.19.0
+1509820534887	geckodriver	INFO	Listening on 127.0.0.1:47868
+1509820536756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.L51qEF4f249s"
+1509820540453	Marionette	INFO	Enabled via --marionette
+1509820548945	Marionette	INFO	Listening on port 32998
+1509820549145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509820549429	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509820549688	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509820549855	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509820549856	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509820553434	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509820563124	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820566857	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820568152	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820568803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820568958	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=8518332815865877865&ex=appnexus.com"
+1509820569774	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509820569782	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509820569789	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509820572094	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509820572132	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509820583246	Marionette	INFO	New connections will no longer be accepted
+1509821087425	geckodriver	INFO	geckodriver 0.19.0
+1509821087443	geckodriver	INFO	Listening on 127.0.0.1:40093
+1509821089240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Dm334PfbERM1"
+1509821092837	Marionette	INFO	Enabled via --marionette
+1509821101557	Marionette	INFO	Listening on port 46240
+1509821101775	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509821102066	Marionette	DEBUG	loaded listener.js
+1509821102300	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509821102663	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509821102667	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509821107490	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509821115924	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509821116819	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509821120769	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509821120841	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509821121612	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509821122337	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=5053355660392306327&ex=appnexus.com"
+1509821123561	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509821123568	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509821123579	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509821123609	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509821134358	Marionette	INFO	New connections will no longer be accepted
+[Child 8967] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1509821158829	geckodriver	INFO	geckodriver 0.19.0
+1509821158846	geckodriver	INFO	Listening on 127.0.0.1:59127
+1509821160663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PDFxc6TZpJMB"
+1509821164326	Marionette	INFO	Enabled via --marionette
+1509821172980	Marionette	INFO	Listening on port 39280
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1509821173151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509821173444	Marionette	DEBUG	loaded listener.js
+1509821173614	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509821173938	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509821173941	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509821177774	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1509821190915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509821190985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509821191552	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509821192731	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509821192771	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=8719495594808207583&ex=appnexus.com"
+1509821193412	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1509821193421	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1509821193428	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1509821195898	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1509821195960	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1509821207408	Marionette	INFO	New connections will no longer be accepted
