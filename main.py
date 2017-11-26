@@ -2,9 +2,8 @@
 
 '''Current state: Main.py creates two csvs - stats.csv and games.csv. 
 These feed into the Jupyter Notebook. 
-Need to merge this games data into the stats dataframe, thereby creating the main dataframe
-which will be used for data analysis. This dataframe will contain the player's stats as well
-as info about whether or not they won, home or away, etc.''' 
+Need to add logic operations which will add new columns for win/loss, team points, etc to 
+main dataframe.''' 
 
 # Importing required modules
 import time
