@@ -1894,6 +1894,7 @@ JavaScript error: http://stats.nba.com/game/0021700001/, line 1602: ReferenceErr
 1511030103168	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
 1511030103197	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
 1511030115967	Marionette	INFO	New connections will no longer be accepted
+<<<<<<< HEAD
 1512845001874	geckodriver	INFO	geckodriver 0.19.0
 1512845001912	geckodriver	INFO	Listening on 127.0.0.1:38538
 1512845003923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ulcuq6DbFhzr"
@@ -2027,3 +2028,5 @@ JavaScript error: http://stats.nba.com/game/0021700002/, line 1602: ReferenceErr
 1512845614612	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=an"
 1512845623207	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700002/"
 1512845635589	Marionette	INFO	New connections will no longer be accepted
+=======
+>>>>>>> 1a5925bc261524fe16e3b4f365e1a9239c5c976f
