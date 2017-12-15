@@ -2030,3 +2030,44 @@ JavaScript error: http://stats.nba.com/game/0021700002/, line 1602: ReferenceErr
 1512845635589	Marionette	INFO	New connections will no longer be accepted
 =======
 >>>>>>> 1a5925bc261524fe16e3b4f365e1a9239c5c976f
+1513367734164	geckodriver	INFO	geckodriver 0.19.0
+1513367734200	geckodriver	INFO	Listening on 127.0.0.1:43161
+1513367736214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZOKcuh2rQoSF"
+1513367745973	Marionette	INFO	Enabled via --marionette
+1513367759393	Marionette	INFO	Listening on port 39646
+1513367759539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1513367759799	Marionette	DEBUG	loaded listener.js
+1513367760001	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513367760228	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513367760230	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://stats.nba.com/game/0021700001/, line 1602: ReferenceError: _satellite is not defined
+JavaScript error: http://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-87325a94dcd673b623e98a8819ed836986252253.js, line 2: SyntaxError: nothing to repeat
+1513367765268	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700001/"
+1513367772344	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1513367777104	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1513367777179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1513367778072	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1513367778866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1513367779074	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=7542715845122829535&ex=appnexus.com"
+1513367779704	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1513367779714	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_an&fv=1.0&a=cm&cm3ppd=1"
+1513367779724	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox_an&dcc=t"
+1513367779925	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700001/"
+1513367792201	Marionette	DEBUG	Received DOM event "beforeunload" for "http://stats.nba.com/game/0021700001/"
+1513367792468	Marionette	DEBUG	Received DOM event "pagehide" for "http://stats.nba.com/game/0021700001/"
+1513367792484	Marionette	DEBUG	Received DOM event "unload" for "http://stats.nba.com/game/0021700001/"
+JavaScript error: http://stats.nba.com/game/0021700002/, line 1602: ReferenceError: _satellite is not defined
+1513367793934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1513367793936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1513367793940	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1513367793942	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513367793944	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+JavaScript error: http://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-87325a94dcd673b623e98a8819ed836986252253.js, line 2: SyntaxError: nothing to repeat
+1513367794955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://stats.nba.com/game/0021700002/"
+1513367808162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1513367809682	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fstats.nba.com&kxcl=cdn&kxp="
+1513367810114	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700002/"
+1513367822904	Marionette	INFO	New connections will no longer be accepted
+[Child 6291] WARNING: pipe error (16): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6291] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
