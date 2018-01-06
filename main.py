@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 '''Current state: Main.py creates two csvs - stats.csv and games.csv. 
-These feed into the Jupyter Notebook. 
-Need to add logic operations which will add new columns for win/loss, team points, etc to 
-main dataframe.''' 
+These feed into the Jupyter Notebook. The jupyter notebook is good to go. Need to update 
+the loop below so it will loop through the entire season.''' 
 
 # Importing required modules
 import time
@@ -48,8 +47,11 @@ def games(browser):
         writer.writerow(i)
     ofile.close()
 
-for i in range(2):
-    webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+for i in range(200):
+    if i < 9:
+        webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+    else:
+        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
 browser.quit()
 
-#TODO: Create an iterable that will go through the NBA games.
+
