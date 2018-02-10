@@ -30,7 +30,7 @@ def stats(browser):
     statsText = stats.text
     statsText = statsText.split('\n')
     for index,i in enumerate(statsText):
-        if index > 11:
+        if index > 10:
             writer.writerow(i)
         else:
             continue
@@ -47,11 +47,13 @@ def games(browser):
         writer.writerow(i)
     ofile.close()
 
-for i in range(200):
-    if i < 9:
-        webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-    else:
-        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+webpull('http://stats.nba.com/game/0021700001/')
+
+# for i in range(1):
+#     if i < 9:
+#         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+#     else:
+#         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
 browser.quit()
 
 
