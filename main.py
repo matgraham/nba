@@ -10,6 +10,7 @@ import requests
 import csv
 import pandas as pd
 import numpy as np
+import player_data
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -20,6 +21,7 @@ def webpull(url):
     browser.get(url)
     stats(browser)
     games(browser)
+
 
 
 #This function pulls the player stats and adds them to the stats.csv file
