@@ -18,9 +18,11 @@ import itertools
 
 # In[3]:
 def main_function(stats_csv, games_csv):
+    stats_csv = "stats.csv"
+    games_csv = "games.csv"
     #Dump the stats dataframe into a csv and clean it up
     cols = ['PLAYER', 'MIN', 'FGM','FGA', 'FG%', '3PM', '3PA','3P%','FTM','FTA','FT%','OREB','DREB','REB','AST','TOV','STL','BLK','PF','PTS','+/-']
-    statsDF = pd.read_csv('stats.csv', header= None, names=cols, index_col=False, error_bad_lines=False, delim_whitespace=True)
+    statsDF = pd.read_csv(stats_csv, header= None, names=cols, index_col=False, error_bad_lines=False, delim_whitespace=True)
     statsDF[cols] = statsDF[cols].replace({'\$': '', ',': ''}, regex=True)
 
 
@@ -120,7 +122,7 @@ def main_function(stats_csv, games_csv):
 
     #GAMES CELL: This prepares the games section into a dataframe
     #Passing in csv file and getting rid of the unused rows
-    gamesDF = pd.read_csv('games.csv', header= None, names=['a','b','c','d','e','f','g','h','i'], index_col=False, error_bad_lines=False, delim_whitespace=True)
+    gamesDF = pd.read_csv(games_csv, header= None, names=['a','b','c','d','e','f','g','h','i'], index_col=False, error_bad_lines=False, delim_whitespace=True)
     gamesDF.columns = [col.replace(',', '') for col in gamesDF.columns]
     #if you want to operate on multiple columns, put them in a list like so:
     games_cols = ['a','b','c','d','e','f','g','h','i']
@@ -210,19 +212,8 @@ def main_function(stats_csv, games_csv):
             pass
 
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
-
-
-    # In[18]:
-
-    finalStats.info()
-
-
-    # In[ ]:
-
-
-
-
-    # In[ ]:
-
+    finalStats = finalStats.fillna('NA')
+    print('Data successfully written!')
+    finalStats
 
 
