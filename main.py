@@ -7,9 +7,11 @@ the loop below so it will loop through the entire season.'''
 # Importing required modules
 import time
 import requests
+import os
 import csv
 import pandas as pd
 import numpy as np
+from player_data import main_function
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -20,7 +22,8 @@ def webpull(url):
     browser.get(url)
     stats(browser)
     games(browser)
-
+    main_function("stats_csv","games_csv")
+    reset("stats.csv", "games.csv")
 
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
@@ -47,13 +50,15 @@ def games(browser):
         writer.writerow(i)
     ofile.close()
 
-webpull('http://stats.nba.com/game/0021700001/')
+def reset(stats_csv, games_csv):
+    os.remove(stats_csv)
+    os.remove(games_csv)
 
-# for i in range(1):
-#     if i < 9:
-#         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-#     else:
-#         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+for i in range(200):
+     if i < 9:
+         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+     else:
+         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
 browser.quit()
 
 
