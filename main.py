@@ -22,7 +22,8 @@ def webpull(url):
     browser.get(url)
     stats(browser)
     games(browser)
-    main_function("stats_csv","games_csv")
+    dataframe = main_function("stats_csv","games_csv")
+    print(dataframe)
     reset("stats.csv", "games.csv")
 
 #This function pulls the player stats and adds them to the stats.csv file
