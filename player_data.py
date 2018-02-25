@@ -77,9 +77,7 @@ def main_function(stats_csv, games_csv):
     for index, row in statsDF.iterrows():
         if index % 2 == 0:
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
-    print(mainDFIndex)
-
-
+    
     # In[9]:
 
     #Setup dicts with the sub categories
@@ -111,11 +109,6 @@ def main_function(stats_csv, games_csv):
     finalStats['OPPONENT'] = opponent_list
     #This will replace the nan's with DNP
     finalStats = finalStats.fillna('NA')
-
-
-    # In[10]:
-
-    finalStats
 
 
     # In[11]:
@@ -176,8 +169,6 @@ def main_function(stats_csv, games_csv):
     gamesData = gamesData.reshape(games,16)
     #Create an empty dataframe, based on the games date as the index
     newGamesDF = pd.DataFrame(data = gamesData, columns=['Home','Away','W/L','1st Qtr H','2nd Qtr H','3rd Qtr H','4th Qtr H','1st Qtr A','2nd Qtr A','3rd Qtr A','4th Qtr A','Total H','Total A', 'Ref1','Ref2','Ref3'])
-    newGamesDF
-
 
     # In[14]:
 
@@ -198,8 +189,6 @@ def main_function(stats_csv, games_csv):
         finalStats['W/L'] = newGamesDF['W/L'][0]
         finalStats['Home'] = newGamesDF['Home'][0]
         finalStats['Away'] = newGamesDF['Away'][0]
-        
-
 
     # In[15]:
 
