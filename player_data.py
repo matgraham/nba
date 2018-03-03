@@ -54,7 +54,7 @@ def main_function(stats_csv, games_csv):
                     statsDF = statsDF[statsDF.PLAYER != away_city[0]]
                     statsDF = statsDF[statsDF.PLAYER != away_city[1]]
                     statsDF = statsDF.reset_index(drop=True)
-                    away_player_count = statsDF.index[index] / 2
+                    away_player_count = int(statsDF.index[index] / 2)
                     break
                 else:
                     home_city.append(statsDF.iloc[-1][0])
