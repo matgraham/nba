@@ -33,6 +33,7 @@ def webpull(url):
     games(browser)
     dataframe = main_function("stats_csv","games_csv")
     dataframe_merge(dataframe)
+    print("Game {} successfully written!".format(game_counter))
     reset("stats.csv", "games.csv")
 
 #This function pulls the player stats and adds them to the stats.csv file
@@ -76,7 +77,7 @@ def dataframe_merge(dataframe):
     
 #webpull('http://stats.nba.com/game/0021700001/')
 
-for i in range(5):
+for i in range(30):
     if i < 9:
         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
         game_counter += 1
