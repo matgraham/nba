@@ -40,10 +40,13 @@ def main_function(stats_csv, games_csv):
     flag = 0
     away_player_count = 0
     for index,row in statsDF.iterrows():
-        if row[0] == 'DNP':
+        if index == 26 and flag == 0:
+        flag = 1
+    else:
+        if row[0] == 'DNP' or row[0] == 'NWT':
             flag = 1
         else:
-            if statsDF.iloc[index + 1][0] == 'DNP':
+            if statsDF.iloc[index + 1][0] == 'DNP' or statsDF.iloc[index + 1][0] == 'NWT':
                 continue
             elif flag == 1:
                 home_city.append(row[0])
@@ -68,6 +71,7 @@ def main_function(stats_csv, games_csv):
                     break
             else:
                 continue
+
 
 
     # In[6]:

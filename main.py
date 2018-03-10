@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-'''Current state: Main.py creates two csvs - stats.csv and games.csv. 
-These feed into the Jupyter Notebook. The jupyter notebook is good to go. Need to update 
-the loop below so it will loop through the entire season.''' 
+'''Current state: Main.py creates one csv - data.csv. 
+This data file contains info for every game and will serve as the main data
+source for the ML model. I need to add a few core features that the ML model will use
+for predictions.''' 
 
 # Importing required modules
 import time
@@ -79,9 +80,11 @@ def dataframe_merge(dataframe):
 
 for i in range(30):
     if i < 9:
+        print(i)
         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
         game_counter += 1
     else:
+        print(i)
         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
         game_counter += 1
 
