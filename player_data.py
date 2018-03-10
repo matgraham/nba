@@ -202,7 +202,6 @@ def main_function(stats_csv, games_csv):
 
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
     finalStats = finalStats.fillna('NA')
-    print('Data successfully written!')
     return finalStats
     
 
