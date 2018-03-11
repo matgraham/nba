@@ -76,15 +76,13 @@ def dataframe_merge(dataframe):
     main_dataframe['Game'] = game_counter
     dataframe.drop(dataframe.index, inplace=True)
     
-#webpull('http://stats.nba.com/game/0021700001/')
+
 
 for i in range(30):
     if i < 9:
-        print(i)
         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
         game_counter += 1
     else:
-        print(i)
         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
         game_counter += 1
 

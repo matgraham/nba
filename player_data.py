@@ -41,36 +41,36 @@ def main_function(stats_csv, games_csv):
     away_player_count = 0
     for index,row in statsDF.iterrows():
         if index == 26 and flag == 0:
-        flag = 1
-    else:
-        if row[0] == 'DNP' or row[0] == 'NWT':
             flag = 1
         else:
-            if statsDF.iloc[index + 1][0] == 'DNP' or statsDF.iloc[index + 1][0] == 'NWT':
-                continue
-            elif flag == 1:
-                home_city.append(row[0])
-                if index % 2 == 0:
-                    home_city.append(statsDF.iloc[-1][0])
-                    away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                    statsDF = statsDF.reset_index(drop=True)
-                    away_player_count = int(statsDF.index[index] / 2)
-                    break
-                else:
-                    home_city.append(statsDF.iloc[-1][0])
-                    away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                    statsDF = statsDF.reset_index(drop=True)
-                    away_player_count = int(statsDF.index[index] / 2)
-                    break
+            if row[0] == 'DNP' or row[0] == 'NWT':
+                flag = 1
             else:
-                continue
+                if statsDF.iloc[index + 1][0] == 'DNP' or statsDF.iloc[index + 1][0] == 'NWT':
+                    continue
+                elif flag == 1:
+                    home_city.append(row[0])
+                    if index % 2 == 0:
+                        home_city.append(statsDF.iloc[-1][0])
+                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
+                        statsDF = statsDF.reset_index(drop=True)
+                        away_player_count = int(statsDF.index[index] / 2)
+                        break
+                    else:
+                        home_city.append(statsDF.iloc[-1][0])
+                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
+                        statsDF = statsDF.reset_index(drop=True)
+                        away_player_count = int(statsDF.index[index] / 2)
+                        break
+                else:
+                    continue
 
 
 
