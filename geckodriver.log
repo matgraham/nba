@@ -1610,3 +1610,196 @@ Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrp
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1524937072966	geckodriver	INFO	geckodriver 0.19.0
+1524937073038	geckodriver	INFO	Listening on 127.0.0.1:45104
+1524937074869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vdZfkcI6Qq7q"
+1524937084642	Marionette	INFO	Enabled via --marionette
+1524937100870	Marionette	INFO	Listening on port 42025
+1524937101041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524937101394	Marionette	DEBUG	loaded listener.js
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524937161096	geckodriver	INFO	geckodriver 0.19.0
+1524937161117	geckodriver	INFO	Listening on 127.0.0.1:44838
+1524937163085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hqeQxtblsSte"
+1524937167775	Marionette	INFO	Enabled via --marionette
+1524937180184	Marionette	INFO	Listening on port 40879
+1524937180334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524937180701	Marionette	DEBUG	loaded listener.js
+1524937181019	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1524937181886	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1524937181888	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://d2lv4zbk7v5f93.cloudfront.net/esf.js, line 1: Error: invalid option: 'msg' valid keys are: '["hasBeenRead","has_been_read","accountId","clientId","cmd","debug","beacon","bootstrap","detection","dfp","events","rid","siteCssLocation","disableBlockerStyleSheets","styleManager","vid","runImmediately"]'
+1524937191201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937613602	geckodriver	INFO	geckodriver 0.19.0
+1524937613640	geckodriver	INFO	Listening on 127.0.0.1:42437
+1524937616092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.x1lUbXocrGR4"
+1524937621432	Marionette	INFO	Enabled via --marionette
+1524937634598	Marionette	INFO	Listening on port 36360
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524937634754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524937635186	Marionette	DEBUG	loaded listener.js
+1524937700073	geckodriver	INFO	geckodriver 0.19.0
+1524937700095	geckodriver	INFO	Listening on 127.0.0.1:56522
+1524937702460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CFBHLHJPDjP3"
+1524937708242	Marionette	INFO	Enabled via --marionette
+1524937721020	Marionette	INFO	Listening on port 46640
+1524937721169	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524937721558	Marionette	DEBUG	loaded listener.js
+1524937721804	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1524937722789	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1524937722791	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://d2lv4zbk7v5f93.cloudfront.net/esf.js, line 1: Error: invalid option: 'msg' valid keys are: '["hasBeenRead","has_been_read","accountId","clientId","cmd","debug","beacon","bootstrap","detection","dfp","events","rid","siteCssLocation","disableBlockerStyleSheets","styleManager","vid","runImmediately"]'
+1524937735358	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937738617	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1524937738618	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1524937738846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fwww.nba.com&kxcl=cdn&kxp="
+1524937738924	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937738998	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937739003	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937739021	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937739238	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937741660	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fwww.nba.com&kxcl=cdn&kxp="
+1524937741676	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937741707	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937742755	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937743013	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=rbd_ox_pm_an&dcc=t"
+1524937743385	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1524937743399	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1524937743594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937744151	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937744636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937745475	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937745864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_rbd_pm_an&fv=1.0&a=cm&cm3ppd=1"
+1524937746256	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1524937746681	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937747868	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937748487	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1524937748788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID"
+1524937748792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937748828	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937748837	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms1"
+1524937748856	Marionette	DEBUG	Received DOM event "pageshow" for "https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms1"
+1524937749238	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1524937749610	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/sodar/6uQTKQJz.html"
+1524937750007	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/sodar/6uQTKQJz.html"
+1524937750034	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937750131	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937750309	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937750934	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=5099636900127279007&ex=appnexus.com"
+1524937751084	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937751850	Marionette	DEBUG	Received DOM event "pageshow" for "http://dis.criteo.com/dis/usersync.aspx?r=3&p=4&cp=pubmaticUS&cu=1&url=http%3A%2F%2Fimage2.pubmatic.com%2FAdServer%2FPug%3Fvcode%3Dbz0yJnR5cGU9MSZjb2RlPTE5MjgmdGw9NDMyMDA%3D%26piggybackCookie%3Duid%3A%40%40CRITEO_USERID%40%40"
+1524937751991	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic2waycm-atl.netmng.com/cm/"
+1524937752059	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic-cm.p.veruta.com/adserver/cookiematch?pnid=3000002"
+1524937752083	Marionette	DEBUG	Received DOM event "pageshow" for "http://sync.adaptv.advertising.com/sync?type=gif&key=pubmatic-55&uid=0BBEBE07-2AF5-493D-B011-EB7D3A585CA5"
+1524937752119	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=0BBEBE07-2AF5-493D-B011-EB7D3A585CA5&ex=pubmatic.com"
+1524937752550	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937752585	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1524937752680	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937753017	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMxNjAmdGw9MTI5NjAw&piggybackCookie=uid:ab358f3d-9458-47ef-94e8-a34999cab751-tuct1de3996&excid=23&cijs=0"
+1524937753086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524937753113	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524937753239	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEG3VlZNsWHJ6AwzFj9Bpd_o&google_cver=1"
+1524937753287	Marionette	DEBUG	Received DOM event "pageshow" for "http://usync.nexage.com/mapuser?providerid=29472&userid=0BBEBE07-2AF5-493D-B011-EB7D3A585CA5;cfp=1"
+1524937753301	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=975fa5b7-341b-4eba-8d84-867ab8290792"
+1524937753317	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw&r="
+1524937753334	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMzNDImdGw9MTI5NjAw&piggybackCookie=u_3c32666f-b583-42c3-9bdd-423bc24399a4"
+1524937753402	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTExMTMmdGw9NDMyMDA=&piggybackCookie=9wEmBqBUcgTvV3cG91BuCvICdAHvWCIE8gW64rgV"
+1524937753406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=http%3A//geo-um.btrll.com/v1/map_pixel/partner/1895.png&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20geo-um.btrll.com."
+[Parent 7332] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-u8pFmh/firefox-55.0.1+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1524937858525	geckodriver	INFO	geckodriver 0.19.0
+1524937858551	geckodriver	INFO	Listening on 127.0.0.1:46136
+1524937860553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bn70bHwhRIFB"
+1524937865036	Marionette	INFO	Enabled via --marionette
+1524937878148	Marionette	INFO	Listening on port 45262
+1524937878241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524937878742	Marionette	DEBUG	loaded listener.js
+1524937879200	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1524937879759	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1524937879761	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1524937888920	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524937890487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=rbd_ox_pm_an&dcc=t"
+1524937891198	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_rbd_pm_an&fv=1.0&a=cm&cm3ppd=1"
+1524937891408	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID"
+1524937891573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1524937891993	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms1"
+1524937893446	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937894085	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=7048830482593954986&ex=appnexus.com"
+1524937894150	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937894791	Marionette	DEBUG	Received DOM event "pageshow" for "http://dis.criteo.com/dis/usersync.aspx?r=3&p=4&cp=pubmaticUS&cu=1&url=http%3A%2F%2Fimage2.pubmatic.com%2FAdServer%2FPug%3Fvcode%3Dbz0yJnR5cGU9MSZjb2RlPTE5MjgmdGw9NDMyMDA%3D%26piggybackCookie%3Duid%3A%40%40CRITEO_USERID%40%40"
+1524937894866	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic2waycm-atl.netmng.com/cm/"
+1524937894931	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic-cm.p.veruta.com/adserver/cookiematch?pnid=3000002"
+1524937895007	Marionette	DEBUG	Received DOM event "pageshow" for "http://sync.adaptv.advertising.com/sync?type=gif&key=pubmatic-55&uid=34409B24-56D3-4B07-BD8A-67F1498A9185"
+1524937895098	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=34409B24-56D3-4B07-BD8A-67F1498A9185&ex=pubmatic.com"
+1524937897299	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524937897407	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+JavaScript error: http://d2lv4zbk7v5f93.cloudfront.net/esf.js, line 1: Error: invalid option: 'msg' valid keys are: '["hasBeenRead","has_been_read","accountId","clientId","cmd","debug","beacon","bootstrap","detection","dfp","events","rid","siteCssLocation","disableBlockerStyleSheets","styleManager","vid","runImmediately"]'
+1524937899370	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMxNjAmdGw9MTI5NjAw&piggybackCookie=uid:fda7094b-2509-42c0-9a66-69229cc25476-tuct1de3a25&excid=23&cijs=0"
+1524937899407	Marionette	DEBUG	Received DOM event "pageshow" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1524937899573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1524937899574	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483727"
+1524937899589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524937899610	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524937899641	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESECtKW9vvjiJgfKYeEJCGwIA&google_cver=1"
+1524937899670	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=f18f33cd-86d5-4fa1-a1d9-c8b524b38620"
+1524937899704	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw&r="
+1524937899897	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTExMTMmdGw9NDMyMDA=&piggybackCookie=XLhPGgvtSxtE7BIfXr0HFlngEh1Eu08fW-rd5tyc"
+1524937899916	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTM2MiZ0bD00MzIwMA==&piggybackCookie=uid:17225ae4-2c79-4900-be0a-c643df236202"
+1524937899943	Marionette	DEBUG	Received DOM event "pageshow" for "http://usync.nexage.com/mapuser?providerid=29472&userid=34409B24-56D3-4B07-BD8A-67F1498A9185;cfp=1"
+1524937899975	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMzNDImdGw9MTI5NjAw&piggybackCookie=u_48313237-037e-4ccc-816e-55dc75e3acb0"
+1524937900224	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524937900471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=http%3A//geo-um.btrll.com/v1/map_pixel/partner/1895.png&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20geo-um.btrll.com."
+1524938053754	geckodriver	INFO	geckodriver 0.19.0
+1524938053775	geckodriver	INFO	Listening on 127.0.0.1:48368
+1524938055800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AWtAnWsXTp3K"
+1524938060120	Marionette	INFO	Enabled via --marionette
+1524938072810	Marionette	INFO	Listening on port 39325
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1524938072962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524938073367	Marionette	DEBUG	loaded listener.js
+1524938073748	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1524938074168	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1524938074170	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1524938083734	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524938085572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=rbd_ox_pm_an&dcc=t"
+1524938086916	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://s.amazon-adsystem.com/v3/pr?exlist=ox_rbd_pm_an&fv=1.0&a=cm&cm3ppd=1"
+JavaScript error: http://d2lv4zbk7v5f93.cloudfront.net/esf.js, line 1: Error: invalid option: 'msg' valid keys are: '["hasBeenRead","has_been_read","accountId","clientId","cmd","debug","beacon","bootstrap","detection","dfp","events","rid","siteCssLocation","disableBlockerStyleSheets","styleManager","vid","runImmediately"]'
+1524938090610	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1524938090611	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1524938091047	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524938091127	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID"
+1524938091143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524938091146	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524938091175	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524938091242	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://us-u.openx.net/w/1.0/cm?cc=1&id=e818ca1e-0c23-caa8-0dd3-096b0ada08b7&ph=2d1251ae-7f3a-47cf-bd2a-2f288854a0ba&plm=5&r=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dopenx.com%26id%3D"
+1524938091262	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms1"
+1524938092111	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524938092147	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fwww.nba.com&kxcl=cdn&kxp="
+1524938092995	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524938093184	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=665322359449166532&ex=appnexus.com"
+1524938093433	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524938093467	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524938093652	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic-cm.p.veruta.com/adserver/cookiematch?pnid=3000002"
+1524938093683	Marionette	DEBUG	Received DOM event "pageshow" for "http://sync.adaptv.advertising.com/sync?type=gif&key=pubmatic-55&uid=6CFD50A9-7A3D-4E39-B8A5-17DFBE82E080"
+1524938093827	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524938093977	Marionette	DEBUG	Received DOM event "pageshow" for "http://dis.criteo.com/dis/usersync.aspx?r=3&p=4&cp=pubmaticUS&cu=1&url=http%3A%2F%2Fimage2.pubmatic.com%2FAdServer%2FPug%3Fvcode%3Dbz0yJnR5cGU9MSZjb2RlPTE5MjgmdGw9NDMyMDA%3D%26piggybackCookie%3Duid%3A%40%40CRITEO_USERID%40%40"
+1524938094095	Marionette	DEBUG	Received DOM event "pageshow" for "http://pubmatic2waycm-atl.netmng.com/cm/"
+1524938094164	Marionette	DEBUG	Received DOM event "pageshow" for "http://s.amazon-adsystem.com/ecm3?id=6CFD50A9-7A3D-4E39-B8A5-17DFBE82E080&ex=pubmatic.com"
+1524938094885	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.nba.com/teams"
+1524938095963	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524938096033	Marionette	DEBUG	Received DOM event "pageshow" for "http://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=156011&s=165626&predirect=http%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid%3DPM_UID%26ex%3Dpubmatic.com&userIdMacro=PM_UID&it=0&np=0"
+1524938096127	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1524938096232	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.nba.com/teams"
+1524938096295	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&kxt=http%3A%2F%2Fwww.nba.com&kxcl=cdn&kxp="
+1524938096426	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524938096437	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0xJnR5cGU9MSZqcz0xJmNvZGU9MjYyNiZ0bD0xNTc2ODAw"
+1524938096455	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMxNjAmdGw9MTI5NjAw&piggybackCookie=uid:58767ac2-61bb-4be2-9a54-b6257e3c5e47-tuct1de3aec&excid=23&cijs=0"
+1524938096483	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTExMTMmdGw9NDMyMDA=&piggybackCookie=ak27dz0Z6CByHuomZx7zd2ccunVyGO13ahwk8RJ0"
+1524938096498	Marionette	DEBUG	Received DOM event "pageshow" for "http://usync.nexage.com/mapuser?providerid=29472&userid=6CFD50A9-7A3D-4E39-B8A5-17DFBE82E080;cfp=1"
+1524938096514	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESELq8DfcOG9UTdl5aLOOYsP0&google_cver=1"
+1524938096548	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=4953d598-e64b-4e69-849a-87eb9be93d82"
+1524938096565	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw&r="
+1524938096598	Marionette	DEBUG	Received DOM event "pageshow" for "http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMzNDImdGw9MTI5NjAw&piggybackCookie=u_c339c34e-1c56-4625-a030-e8d4f4859e28"
+1524938097220	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=http%3A//geo-um.btrll.com/v1/map_pixel/partner/1895.png&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20geo-um.btrll.com."
