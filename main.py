@@ -23,7 +23,7 @@ main_dataframe: The blank dataframe where every game's data will append to
 game_counter = a counter that will append the game number to the main_dataframe
 '''  
 
-browser = webdriver.Firefox() 
+browser = webdriver.Chrome()
 main_dataframe = pd.DataFrame()
 game_counter =  0
 
