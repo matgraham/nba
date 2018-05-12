@@ -23,11 +23,12 @@ main_dataframe: The blank dataframe where every game's data will append to
 game_counter = a counter that will append the game number to the main_dataframe
 '''  
 
-browser = webdriver.Firefox() 
+browser = webdriver.Chrome() 
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
     browser.get(url)
+    browser.execute_script("window.scrollTo(0, 40000)")
     stats(browser)
     #games(browser)
     #dataframe = main_function("stats_csv","games_csv")
@@ -38,17 +39,19 @@ def webpull(url):
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
     stats = browser.find_element_by_class_name('block-league-content')
-    print(stats)
-    #ofile = open('stats.csv', "a", newline='\n')
-    #writer = csv.writer(ofile)
-    #statsText = stats.text
-    #statsText = statsText.split('\n')
-    #for index,i in enumerate(statsText):
-        #if index > 10:
-            #writer.writerow(i)
-        #else:
-            #continue
-    #ofile.close()
+    teams = browser.find_elements_by_class_name('nba-player-index__team-image')
+    ofile = open('stats.csv', "a", newline='\n')
+    writer = csv.writer(ofile)
+    statsText = stats.text
+    teamsList = [x.get_attribute("href") for x in teams]
+    print(teamsList)
+    statsText = statsText.split('\n')
+    for index,i in enumerate(statsText):
+        if index > 10:
+            writer.writerow(i)
+        else:
+            continue
+    ofile.close()
 
 #This function pulls game data and adds them to the games.csv file
 
