@@ -12,7 +12,7 @@ import os
 import csv
 import pandas as pd
 import numpy as np
-from player_data import main_function
+from PlayerDataCleanup import main_function
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -30,34 +30,39 @@ def webpull(url):
     browser.get(url)
     browser.execute_script("window.scrollTo(0, 40000)")
     stats(browser)
-    #games(browser)
-    #dataframe = main_function("stats_csv","games_csv")
-    #dataframe_merge(dataframe)
-    #print("Game {} successfully written!".format(game_counter))
-    #reset("stats.csv", "games.csv")
-
+    
+    
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
     stats = browser.find_element_by_class_name('block-league-content')
     teams = browser.find_elements_by_class_name('nba-player-index__team-image')
-    ofile = open('stats.csv', "a", newline='\n')
+    ofile = open('players.csv', "a", newline='\n')
     writer = csv.writer(ofile)
     statsText = stats.text
     teamsList = [x.get_attribute("href") for x in teams]
     print(teamsList)
     statsText = statsText.split('\n')
+    team_index =  0
     for index,i in enumerate(statsText):
-        if index > 10:
+        if index > 1752:
             writer.writerow(i)
+            if (index + 1) % 5 == 0:
+                writer.writerow(teamsList[team_index])
+                team_index += 1
+        elif index > 0:
+            writer.writerow(i)
+            if index % 5 == 0:
+                writer.writerow(teamsList[team_index])
+                team_index += 1
         else:
             continue
     ofile.close()
 
-#This function pulls game data and adds them to the games.csv file
+
 
 webpull('http://www.nba.com/players/')
 
-#main_dataframe.to_csv('data.csv', index=False)
+
 browser.quit()
 
 
