@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
 '''Current state: Main.py creates one csv - data.csv. 
-This data file contains info for every game and will serve as the main data
-source for the ML model. I need to add a few core features that the ML model will use
-for predictions.''' 
+The web scrape is getting hung up on game 32''' 
 
 # Importing required modules
 import time
@@ -25,7 +23,7 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Chrome()
 main_dataframe = pd.DataFrame()
-game_counter =  0
+game_counter =  30
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
@@ -35,7 +33,7 @@ def webpull(url):
     dataframe = main_function("stats_csv","games_csv")
     dataframe_merge(dataframe)
     print("Game {} successfully written!".format(game_counter))
-    reset("stats.csv", "games.csv")
+    #reset("stats.csv", "games.csv")
 
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
@@ -78,13 +76,15 @@ def dataframe_merge(dataframe):
     
 
 
-for i in range(30):
-    if i < 9:
-        webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-        game_counter += 1
-    else:
-        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
-        game_counter += 1
+#for i in range(30,80):
+    #if i < 9:
+        #webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+        #game_counter += 1
+    #else:
+    #webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+    #game_counter += 1
+
+webpull('http://stats.nba.com/game/0021700033/')
 
 main_dataframe.to_csv('data.csv', index=False)
 browser.quit()
