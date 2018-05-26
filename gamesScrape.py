@@ -10,7 +10,7 @@ import os
 import csv
 import pandas as pd
 import numpy as np
-from player_data import main_function
+from gameStats import main_function
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -33,7 +33,9 @@ def webpull(url):
     dataframe = main_function("stats_csv","games_csv")
     dataframe_merge(dataframe)
     print("Game {} successfully written!".format(game_counter))
-    #reset("stats.csv", "games.csv")
+    stats_csv = '/home/acer/github/nba/stats.csv'
+    games_csv = '/home/acer/github/nba/games.csv'
+    reset(stats_csv, games_csv)
 
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
@@ -72,19 +74,19 @@ def dataframe_merge(dataframe):
     global main_dataframe
     main_dataframe = main_dataframe.append(dataframe, ignore_index=True)
     main_dataframe['Game'] = game_counter
-    dataframe.drop(dataframe.index, inplace=True)
+    #dataframe.drop(dataframe.index, inplace=True)
     
 
 
-#for i in range(30,80):
-    #if i < 9:
-        #webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-        #game_counter += 1
-    #else:
-    #webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
-    #game_counter += 1
+# for i in range(30,80):
+#     if i < 9:
+#         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+#         game_counter += 1
+#     else:
+#         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+#         game_counter += 1
 
-webpull('http://stats.nba.com/game/0021700033/')
+webpull('http://stats.nba.com/game/0021700034/')
 
 main_dataframe.to_csv('data.csv', index=False)
 browser.quit()
