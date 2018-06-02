@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[87]:
+# In[1]:
 
 import pandas as pd
 import math
@@ -18,22 +18,31 @@ import itertools
 #mainDF: The dataframe where the main analysis will take place.
 
 
-# In[24]:
+# In[3]:
 def main_function(stats, games):
-
-    # In[113]:
     stats = '/home/acer/github/nba/stats.csv'
     games = '/home/acer/github/nba/games.csv'
+
+
+    # In[4]:
 
     #Dump the stats dataframe into a csv and clean it up
     cols = ['PLAYER', 'MIN', 'FGM','FGA', 'FG%', '3PM', '3PA','3P%','FTM','FTA','FT%','OREB','DREB','REB','AST','TOV','STL','BLK','PF','PTS','+/-']
     statsDF = pd.read_csv(stats, header= None, names=cols, index_col=False, error_bad_lines=False, delim_whitespace=True)
     statsDF[cols] = statsDF[cols].replace({'\$': '', ',': ''}, regex=True)
+    statsDF['PLAYER'] = statsDF['PLAYER'].str.replace('.','')
+    statsDF['PLAYER'] = statsDF['PLAYER'].str.replace('-','')
+    statsDF['PLAYER'] = statsDF['PLAYER'].str.replace("'",'')
+    statsDF['MIN'] = statsDF['MIN'].str.replace("'",'')
+    statsDF['MIN'] = statsDF['MIN'].replace({'\$': '', '-': ''}, regex=True)
+    #Drop the first line for the team name
+    statsDF.drop(0,inplace=True)
 
 
-    # In[114]:
+    # In[5]:
 
     #The nba.com site changed its formatting so this is to remove non-existent rows
+
     new_format_mask = 0
     for index, row in statsDF.iterrows():
         if new_format_mask == 1:
@@ -47,12 +56,15 @@ def main_function(stats, games):
                 new_format_mask += 1
             else:
                 continue
+
     for index, row in statsDF.iterrows():
         if row.iloc[0][3:4] == ":":
-            statsDF.drop(index, inplace=True)        
+            statsDF.drop(index, inplace=True)
+
+        
 
 
-    # In[116]:
+    # In[6]:
 
     statsDF = statsDF[statsDF.PLAYER != 'PLAYER']
     statsDF = statsDF[statsDF.PLAYER != 'Totals:']
@@ -60,100 +72,54 @@ def main_function(stats, games):
     statsDF = statsDF.reset_index(drop=True)
 
 
-    # In[121]:
+    # In[7]:
 
-    statsDF[25:60]
-
-
-    # In[118]:
-
-    home_city = []
-    flag = 0
-    away_player_count = 0
-    for index,row in statsDF.iterrows():
-        if index == 26 and flag == 0:
-            flag = 1
-        else:
-            if row[0] == 'DNP' or row[0] == 'NWT':
-                flag = 1
-            else:
-                if statsDF.iloc[index + 1][0] == 'DNP' or statsDF.iloc[index + 1][0] == 'NWT':
-                    continue
-                elif flag == 1:
-                    home_city.append(row[0])
-                    if index % 2 == 0:
-                        home_city.append(statsDF.iloc[-1][0])
-                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                        statsDF = statsDF.reset_index(drop=True)
-                        away_player_count = int(statsDF.index[index] / 2)
-                        break
-                    else:
-                        home_city.append(statsDF.iloc[-1][0])
-                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                        statsDF = statsDF[statsDF.PLAYER != home_city[0]]
-                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                        statsDF = statsDF.reset_index(drop=True)
-                        away_player_count = int(statsDF.index[index] / 2)
-                        break
-                else:
-                    continue
+    for index, row in statsDF.iterrows():
+        try: 
+            if row.iloc[1].isalpha() and statsDF.iloc[index + 1][1].isalpha():
+                home_team_length = index/2
+                statsDF.drop(index, inplace=True)
+                statsDF = statsDF.reset_index(drop=True)
+                break
+        except:
+            continue
 
 
-    # In[119]:
+    # In[15]:
 
     #Setting up the index on the main stats dataframe
     mainDFIndex = []
     for index, row in statsDF.iterrows():
-        if index % 2 == 0:
+        if row.iloc[0] == 'Nene':
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
-    print(mainDFIndex)
+        elif row.iloc[0].isalpha() == True and row.iloc[1].isalpha() == True:
+            mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
+        
+
+    # In[16]:
+
+    #Setup dicts from the DF
+    statsDF_Dict = statsDF.T.to_dict().values()
 
 
-    # In[122]:
+    # In[17]:
 
-    away_city
-    away_player_count
-
-
-    # In[123]:
-
-    #Setup dicts with the sub categories
-    newDict = dict()
-    something = statsDF.T.to_dict().values()
-    pos = ''
-    for index, i in enumerate(something):
-        if index % 2 != 0:
-            newDict[index] = i
-            newDict[index]['POS'] = pos
-        else:
-            if i['FGM'] == 'nan':
-                continue
-            else:
-                pos = i['FGM']
+    dict_list = []
+    #Iterate through the statsDF and only return lines with stats or lines where players sat
+    for index, i in enumerate(statsDF_Dict):
+        if index == 1 or index % 2 != 0:
+            dict_list.append(i)
+        
 
 
-    finalStats = pd.DataFrame.from_dict(newDict,orient='index')
-    #finalStats.index = mainDFIndex
+    # In[18]:
+
+    finalStats = pd.DataFrame(dict_list)
+    finalStats.index = mainDFIndex
     finalStats.drop(['+/-'], axis=1, inplace=True)
     finalStats = finalStats.rename(columns={'PLAYER':'MIN','MIN':'FGM', 'FGM':'FGA', 'FGA':'FG%', 'FG%':'3PM', '3PM':'3PA', '3PA':'3P%', '3P%':'FTM', 'FTM':'FTA', 'FTA':'FT%', 'FT%':'OREB', 'OREB':'DREB', 'DREB':'REB', 'REB':'AST', 'AST':'TOV', 'TOV':'BLK', 'BLK':'PF', 'PF':'PTS', 'PTS':'+/-'})
-    player_count = len(finalStats.index)
-    teams_list = ((away_city[0] + " ") * away_player_count) + ((home_city[0] + " ") * (player_count - away_player_count))
-    teams_list = teams_list.split()
-    opponent_list = ((home_city[0] + " ") * away_player_count) + ((away_city[0] + " ") * (player_count - away_player_count))
-    opponent_list = opponent_list.split()
-    finalStats['Player'] = mainDFIndex
-    finalStats['TEAM'] = teams_list
-    finalStats['OPPONENT'] = opponent_list
     #This will replace the nan's with DNP
     finalStats = finalStats.fillna('NA')
-
-
-    # In[129]:
 
     #GAMES CELL: This prepares the games section into a dataframe
     #Passing in csv file and getting rid of the unused rows
@@ -174,7 +140,7 @@ def main_function(stats, games):
             pass
 
 
-    # In[130]:
+    # In[21]:
 
     #This cell will arrange the gamesDF into the actual formatted games dataframe, newGamesDF
     #Setting up the index on the main stats dataframe
@@ -211,10 +177,8 @@ def main_function(stats, games):
     gamesData = gamesData.reshape(games,16)
     #Create an empty dataframe, based on the games date as the index
     newGamesDF = pd.DataFrame(data = gamesData, columns=['Home','Away','W/L','1st Qtr H','2nd Qtr H','3rd Qtr H','4th Qtr H','1st Qtr A','2nd Qtr A','3rd Qtr A','4th Qtr A','Total H','Total A', 'Ref1','Ref2','Ref3'])
-    newGamesDF
-
-
-    # In[131]:
+    
+    # In[22]:
 
     for index,row in finalStats.iterrows():
         finalStats['1st Qtr H'] = newGamesDF['1st Qtr H'][0]
@@ -236,7 +200,7 @@ def main_function(stats, games):
         
 
 
-    # In[132]:
+    # In[23]:
 
     #This function will calculate the projected fantasy points per game
     def fantasy_points(row):
@@ -249,13 +213,6 @@ def main_function(stats, games):
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
     finalStats = finalStats.fillna('NA')
 
-
-    # In[133]:
-
-    finalStats['Player']
-
-
-    # In[ ]:
 
 
 
