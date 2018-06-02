@@ -40,34 +40,38 @@ def main_function(stats_csv, games_csv):
     flag = 0
     away_player_count = 0
     for index,row in statsDF.iterrows():
-        if row[0] == 'DNP':
+        if index == 26 and flag == 0:
             flag = 1
         else:
-            if statsDF.iloc[index + 1][0] == 'DNP':
-                continue
-            elif flag == 1:
-                home_city.append(row[0])
-                if index % 2 == 0:
-                    home_city.append(statsDF.iloc[-1][0])
-                    away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                    statsDF = statsDF.reset_index(drop=True)
-                    away_player_count = statsDF.index[index] / 2
-                    break
-                else:
-                    home_city.append(statsDF.iloc[-1][0])
-                    away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != home_city[1]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[0]]
-                    statsDF = statsDF[statsDF.PLAYER != away_city[1]]
-                    statsDF = statsDF.reset_index(drop=True)
-                    away_player_count = int(statsDF.index[index] / 2)
-                    break
+            if row[0] == 'DNP' or row[0] == 'NWT':
+                flag = 1
             else:
-                continue
+                if statsDF.iloc[index + 1][0] == 'DNP' or statsDF.iloc[index + 1][0] == 'NWT':
+                    continue
+                elif flag == 1:
+                    home_city.append(row[0])
+                    if index % 2 == 0:
+                        home_city.append(statsDF.iloc[-1][0])
+                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
+                        statsDF = statsDF.reset_index(drop=True)
+                        away_player_count = int(statsDF.index[index] / 2)
+                        break
+                    else:
+                        home_city.append(statsDF.iloc[-1][0])
+                        away_city = [statsDF.iloc[0][0],statsDF.iloc[-2][0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != home_city[1]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[0]]
+                        statsDF = statsDF[statsDF.PLAYER != away_city[1]]
+                        statsDF = statsDF.reset_index(drop=True)
+                        away_player_count = int(statsDF.index[index] / 2)
+                        break
+                else:
+                    continue
+
 
 
     # In[6]:
@@ -77,9 +81,7 @@ def main_function(stats_csv, games_csv):
     for index, row in statsDF.iterrows():
         if index % 2 == 0:
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
-    print(mainDFIndex)
-
-
+    
     # In[9]:
 
     #Setup dicts with the sub categories
@@ -111,11 +113,6 @@ def main_function(stats_csv, games_csv):
     finalStats['OPPONENT'] = opponent_list
     #This will replace the nan's with DNP
     finalStats = finalStats.fillna('NA')
-
-
-    # In[10]:
-
-    finalStats
 
 
     # In[11]:
@@ -176,8 +173,6 @@ def main_function(stats_csv, games_csv):
     gamesData = gamesData.reshape(games,16)
     #Create an empty dataframe, based on the games date as the index
     newGamesDF = pd.DataFrame(data = gamesData, columns=['Home','Away','W/L','1st Qtr H','2nd Qtr H','3rd Qtr H','4th Qtr H','1st Qtr A','2nd Qtr A','3rd Qtr A','4th Qtr A','Total H','Total A', 'Ref1','Ref2','Ref3'])
-    newGamesDF
-
 
     # In[14]:
 
@@ -198,8 +193,6 @@ def main_function(stats_csv, games_csv):
         finalStats['W/L'] = newGamesDF['W/L'][0]
         finalStats['Home'] = newGamesDF['Home'][0]
         finalStats['Away'] = newGamesDF['Away'][0]
-        
-
 
     # In[15]:
 
@@ -213,7 +206,6 @@ def main_function(stats_csv, games_csv):
 
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
     finalStats = finalStats.fillna('NA')
-    print('Data successfully written!')
     return finalStats
     
 
