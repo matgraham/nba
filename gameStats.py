@@ -18,8 +18,7 @@ import itertools
 #mainDF: The dataframe where the main analysis will take place.
 
 
-# In[3]:
-def main_function(stats,games):
+def main_function(stats,games, date, game_counter):
     stats = '/home/acer/github/nba/stats.csv'
     games = '/home/acer/github/nba/games.csv'
 
@@ -88,24 +87,14 @@ def main_function(stats,games):
         except:
             continue
 
-
-    # In[37]:
-
-    statsDF
-
-
-    # In[38]:
-
-    #Setting up the index on the main stats dataframe
+   #Setting up the index on the main stats dataframe
     mainDFIndex = []
     for index, row in statsDF.iterrows():
         if row.iloc[0] == 'Nene':
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
         elif row.iloc[0].isalpha() == True and row.iloc[1].isalpha() == True:
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
-    print(mainDFIndex)
-
-
+    
     # In[39]:
 
     #Setup dicts from the DF
@@ -131,6 +120,8 @@ def main_function(stats,games):
     #This will replace the nan's with DNP
     finalStats = finalStats.fillna('NA')
 
+    finalStats['Date'] = date
+    finalStats['Game'] = game_counter
     #GAMES CELL: This prepares the games section into a dataframe
     #Passing in csv file and getting rid of the unused rows
     gamesDF = pd.read_csv(games, header= None, names=['a','b','c','d','e','f','g','h','i'], index_col=False, error_bad_lines=False, delim_whitespace=True)
@@ -153,13 +144,6 @@ def main_function(stats,games):
     # In[44]:
 
     #This cell will arrange the gamesDF into the actual formatted games dataframe, newGamesDF
-    #Setting up the index on the main stats dataframe
-    dateIndex = []
-    month = ['OCT', 'NOV', 'DEC', 'JAN', 'FEB']
-    for index, row in gamesDF.iterrows():
-        for i in month:
-            if gamesDF.iloc[index][0] == i:
-                dateIndex.append(gamesDF.iloc[9,0] + " " + gamesDF.iloc[9,1][1] + ", " + gamesDF.iloc[9,2])
     #The next lines will pull the data from the cells in the gamesDF and into the newGamesDF dataframe
     gamesData = []
     games = 0
@@ -220,6 +204,7 @@ def main_function(stats,games):
 
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
     finalStats = finalStats.fillna('NA')
+    #finalStats['Player'] = finalStats.index
     return finalStats
 
 # In[47]:

@@ -23,14 +23,15 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Chrome()
 main_dataframe = pd.DataFrame()
-game_counter =  30
+game_counter =  1
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
     browser.get(url)
     stats(browser)
+    game_date = date(browser)
     games(browser)
-    dataframe = main_function("stats_csv","games_csv")
+    dataframe = main_function("stats_csv","games_csv",game_date,game_counter)
     dataframe_merge(dataframe)
     print("Game {} successfully written!".format(game_counter))
     stats_csv = '/home/acer/github/nba/stats.csv'
@@ -50,6 +51,13 @@ def stats(browser):
         else:
             continue
     ofile.close()
+
+def date(browser):
+    dateDict = {}
+    date = browser.find_element_by_class_name('game-summary__date')
+    dateText = date.text
+    return dateText
+
 
 #This function pulls game data and adds them to the games.csv file
 def games(browser):
@@ -72,21 +80,22 @@ and then delete the specific game's dataframe so the next webpull will be empty
 '''
 def dataframe_merge(dataframe):
     global main_dataframe
-    main_dataframe = main_dataframe.append(dataframe, ignore_index=True)
-    main_dataframe['Game'] = game_counter
-    #dataframe.drop(dataframe.index, inplace=True)
+    main_dataframe = main_dataframe.append(dataframe)
+    dataframe.drop(dataframe.index, inplace=True)
     
-for i in range(80):
+for i in range(2):
     if i < 9:
         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+        game_counter += 1
+    elif i >= 99:
+        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
         game_counter += 1
     else:
         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
         game_counter += 1
 
-#webpull('http://stats.nba.com/game/0021700035/')
-
-main_dataframe.to_csv('data.csv', index=False)
+#webpull('http://stats.nba.com/game/0021700069/')
+main_dataframe.to_csv('data.csv')
 browser.quit()
 
 
