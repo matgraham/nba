@@ -19,12 +19,12 @@ import itertools
 
 
 # In[3]:
-def main_function(stats, games):
+def main_function(stats,games):
     stats = '/home/acer/github/nba/stats.csv'
     games = '/home/acer/github/nba/games.csv'
 
 
-    # In[4]:
+    # In[33]:
 
     #Dump the stats dataframe into a csv and clean it up
     cols = ['PLAYER', 'MIN', 'FGM','FGA', 'FG%', '3PM', '3PA','3P%','FTM','FTA','FT%','OREB','DREB','REB','AST','TOV','STL','BLK','PF','PTS','+/-']
@@ -36,10 +36,13 @@ def main_function(stats, games):
     statsDF['MIN'] = statsDF['MIN'].str.replace("'",'')
     statsDF['MIN'] = statsDF['MIN'].replace({'\$': '', '-': ''}, regex=True)
     #Drop the first line for the team name
-    statsDF.drop(0,inplace=True)
+    if statsDF.iloc[0][0] == 'GLOSSARY':
+        statsDF.drop([0,1], inplace=True)
+    else:
+        statsDF.drop(0, inplace=True)
 
 
-    # In[5]:
+    # In[34]:
 
     #The nba.com site changed its formatting so this is to remove non-existent rows
 
@@ -64,7 +67,7 @@ def main_function(stats, games):
         
 
 
-    # In[6]:
+    # In[35]:
 
     statsDF = statsDF[statsDF.PLAYER != 'PLAYER']
     statsDF = statsDF[statsDF.PLAYER != 'Totals:']
@@ -72,11 +75,12 @@ def main_function(stats, games):
     statsDF = statsDF.reset_index(drop=True)
 
 
-    # In[7]:
+    # In[36]:
 
+    #This will delete the second time a team is named. 
     for index, row in statsDF.iterrows():
         try: 
-            if row.iloc[1].isalpha() and statsDF.iloc[index + 1][1].isalpha():
+            if row.iloc[1].isalpha() and statsDF.iloc[index + 1][1].isalpha() or row.iloc[1] == "76ers":
                 home_team_length = index/2
                 statsDF.drop(index, inplace=True)
                 statsDF = statsDF.reset_index(drop=True)
@@ -85,7 +89,12 @@ def main_function(stats, games):
             continue
 
 
-    # In[15]:
+    # In[37]:
+
+    statsDF
+
+
+    # In[38]:
 
     #Setting up the index on the main stats dataframe
     mainDFIndex = []
@@ -94,15 +103,16 @@ def main_function(stats, games):
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
         elif row.iloc[0].isalpha() == True and row.iloc[1].isalpha() == True:
             mainDFIndex.append(str(row['PLAYER']) + " " + str(row['MIN']))
-        
+    print(mainDFIndex)
 
-    # In[16]:
+
+    # In[39]:
 
     #Setup dicts from the DF
     statsDF_Dict = statsDF.T.to_dict().values()
 
 
-    # In[17]:
+    # In[40]:
 
     dict_list = []
     #Iterate through the statsDF and only return lines with stats or lines where players sat
@@ -112,7 +122,7 @@ def main_function(stats, games):
         
 
 
-    # In[18]:
+    # In[41]:
 
     finalStats = pd.DataFrame(dict_list)
     finalStats.index = mainDFIndex
@@ -140,7 +150,7 @@ def main_function(stats, games):
             pass
 
 
-    # In[21]:
+    # In[44]:
 
     #This cell will arrange the gamesDF into the actual formatted games dataframe, newGamesDF
     #Setting up the index on the main stats dataframe
@@ -178,8 +188,6 @@ def main_function(stats, games):
     #Create an empty dataframe, based on the games date as the index
     newGamesDF = pd.DataFrame(data = gamesData, columns=['Home','Away','W/L','1st Qtr H','2nd Qtr H','3rd Qtr H','4th Qtr H','1st Qtr A','2nd Qtr A','3rd Qtr A','4th Qtr A','Total H','Total A', 'Ref1','Ref2','Ref3'])
     
-    # In[22]:
-
     for index,row in finalStats.iterrows():
         finalStats['1st Qtr H'] = newGamesDF['1st Qtr H'][0]
         finalStats['2nd Qtr H'] = newGamesDF['2nd Qtr H'][0]
@@ -200,7 +208,7 @@ def main_function(stats, games):
         
 
 
-    # In[23]:
+    # In[46]:
 
     #This function will calculate the projected fantasy points per game
     def fantasy_points(row):
@@ -212,7 +220,24 @@ def main_function(stats, games):
 
     finalStats['Fantasy Score'] = finalStats.apply(fantasy_points, axis=1)
     finalStats = finalStats.fillna('NA')
+    return finalStats
 
+# In[47]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
 
 
 
