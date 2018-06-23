@@ -70,7 +70,7 @@ def main_function(stats,games, date, game_counter):
 
     statsDF = statsDF[statsDF.PLAYER != 'PLAYER']
     statsDF = statsDF[statsDF.PLAYER != 'Totals:']
-    statsDF = statsDF[statsDF.PLAYER != 'INACTIVE']
+    statsDF = statsDF[statsDF.MIN != 'PLAYERS']
     statsDF = statsDF.reset_index(drop=True)
 
 
