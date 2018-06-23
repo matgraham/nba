@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-'''Current state: Main.py creates one csv - data.csv. 
-The web scrape is getting hung up on game 32''' 
+'''Current state: Main.py creates one csv - data.csv.''' 
 
 # Importing required modules
 import time
@@ -21,7 +20,7 @@ main_dataframe: The blank dataframe where every game's data will append to
 game_counter = a counter that will append the game number to the main_dataframe
 '''  
 
-browser = webdriver.Chrome()
+browser = webdriver.Firefox()
 main_dataframe = pd.DataFrame()
 game_counter =  1
 
@@ -53,7 +52,6 @@ def stats(browser):
     ofile.close()
 
 def date(browser):
-    dateDict = {}
     date = browser.find_element_by_class_name('game-summary__date')
     dateText = date.text
     return dateText
@@ -82,19 +80,19 @@ def dataframe_merge(dataframe):
     global main_dataframe
     main_dataframe = main_dataframe.append(dataframe)
     dataframe.drop(dataframe.index, inplace=True)
-    
-for i in range(2):
-    if i < 9:
-        webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-        game_counter += 1
-    elif i >= 99:
-        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
-        game_counter += 1
-    else:
-        webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
-        game_counter += 1
 
-#webpull('http://stats.nba.com/game/0021700069/')
+for i in range(100):
+     if i < 9:
+         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+         game_counter += 1
+     elif i >= 99:
+         webpull('http://stats.nba.com/game/0021700{}/'.format(i + 1))
+         game_counter += 1
+     else:
+         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+         game_counter += 1
+
+#webpull('http://stats.nba.com/game/0021700178/')
 main_dataframe.to_csv('data.csv')
 browser.quit()
 
