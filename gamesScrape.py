@@ -22,19 +22,22 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Firefox()
 main_dataframe = pd.DataFrame()
-game_counter =  1
+game_counter =  401
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
     browser.get(url)
+    time.sleep(2)
     stats(browser)
+    time.sleep(2)
     game_date = date(browser)
+    time.sleep(2)
     games(browser)
     dataframe = main_function("stats_csv","games_csv",game_date,game_counter)
     dataframe_merge(dataframe)
     print("Game {} successfully written!".format(game_counter))
-    stats_csv = '/home/acer/github/nba/stats.csv'
-    games_csv = '/home/acer/github/nba/games.csv'
+    stats_csv = 'stats.csv'
+    games_csv = 'games.csv'
     reset(stats_csv, games_csv)
 
 #This function pulls the player stats and adds them to the stats.csv file
@@ -81,14 +84,17 @@ def dataframe_merge(dataframe):
     main_dataframe = main_dataframe.append(dataframe)
     dataframe.drop(dataframe.index, inplace=True)
 
-for i in range(100):
+for i in range(400,500):
      if i < 9:
+         time.sleep(1)
          webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
          game_counter += 1
      elif i >= 99:
+         time.sleep(1)
          webpull('http://stats.nba.com/game/0021700{}/'.format(i + 1))
          game_counter += 1
      else:
+         time.sleep(1)
          webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
          game_counter += 1
 

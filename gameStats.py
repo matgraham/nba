@@ -19,8 +19,8 @@ import itertools
 
 
 def main_function(stats,games, date, game_counter):
-    stats = '/home/acer/github/nba/stats.csv'
-    games = '/home/acer/github/nba/games.csv'
+    stats = 'stats.csv'
+    games = 'games.csv'
 
 
     # In[33]:
