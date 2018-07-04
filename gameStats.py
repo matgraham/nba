@@ -75,11 +75,11 @@ def main_function(stats,games, date, game_counter):
     statsDF = statsDF[statsDF.PLAYER != 'GLOSSARY']
     #Drop the first line for the team name
     statsDF = statsDF.reset_index(drop=True)
-    if statsDF.iloc[0][0] == 'GLOSSARY':
-        statsDF.drop([0,1], inplace=True)
-    else:
-        statsDF.drop(0, inplace=True)
-    statsDF = statsDF.reset_index(drop=True)
+    # if statsDF.iloc[0][0] == 'GLOSSARY':
+    #     statsDF.drop([0,1], inplace=True)
+    # else:
+    #     statsDF.drop(0, inplace=True)
+    # statsDF = statsDF.reset_index(drop=True)
 
 
     # In[36]:
