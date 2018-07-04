@@ -1601,3 +1601,27 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1530458763312	Marionette	DEBUG	Received DOM event "pageshow" for "http://stats.nba.com/game/0021700405/"
 1530458763504	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/tr/"
 1530458763543	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483848"
+1530473869053	geckodriver	INFO	geckodriver 0.19.0
+1530473869060	geckodriver	INFO	Listening on 127.0.0.1:58183
+1530473872172	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile.CHI2SGl7R0KD"
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+1530473875187	Marionette	INFO	Listening on port 58197
+1530473875399	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7668, Chr1530664378400	geckodriver	INFO	geckodriver 0.19.0
+1530664378407	geckodriver	INFO	Listening on 127.0.0.1:54854
+1530664381507	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile.Avu0yfFtXRRG"
+1530664398228	geckodriver	INFO	geckodriver 0.19.0
+1530664398234	geckodriver	INFO	Listening on 127.0.0.1:54920
+1530664401339	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile.qZjN8jX1rRbR"
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+1530664403332	Marionette	INFO	Listening on port 54933
+1530664403347	Marionette	WARN	TLS certificate errors will be ignored for this session
