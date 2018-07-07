@@ -22,7 +22,7 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Firefox()
 main_dataframe = pd.DataFrame()
-game_counter =  401
+game_counter =  501
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
@@ -38,7 +38,7 @@ def webpull(url):
     print("Game {} successfully written!".format(game_counter))
     stats_csv = 'stats.csv'
     games_csv = 'games.csv'
-    #reset(stats_csv, games_csv)
+    reset(stats_csv, games_csv)
 
 #This function pulls the player stats and adds them to the stats.csv file
 def stats(browser):
@@ -84,21 +84,21 @@ def dataframe_merge(dataframe):
     main_dataframe = main_dataframe.append(dataframe)
     dataframe.drop(dataframe.index, inplace=True)
 
-##for i in range(400,500):
-##     if i < 9:
-##         time.sleep(1)
-##         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
-##         game_counter += 1
-##     elif i >= 99:
-##         time.sleep(1)
-##         webpull('http://stats.nba.com/game/0021700{}/'.format(i + 1))
-##         game_counter += 1
-##     else:
-##         time.sleep(1)
-##         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
-##         game_counter += 1
+for i in range(500,600):
+     if i < 9:
+         time.sleep(1)
+         webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+         game_counter += 1
+     elif i >= 99:
+         time.sleep(1)
+         webpull('http://stats.nba.com/game/0021700{}/'.format(i + 1))
+         game_counter += 1
+     else:
+         time.sleep(1)
+         webpull('http://stats.nba.com/game/00217000{}/'.format(i + 1))
+         game_counter += 1
 
-webpull('http://stats.nba.com/game/0021700401/')
+#webpull('http://stats.nba.com/game/0021700401/')
 main_dataframe.to_csv('data.csv')
 browser.quit()
 
