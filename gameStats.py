@@ -34,13 +34,7 @@ def main_function(stats,games, date, game_counter):
     statsDF['PLAYER'] = statsDF['PLAYER'].str.replace("'",'')
     statsDF['MIN'] = statsDF['MIN'].str.replace("'",'')
     statsDF['MIN'] = statsDF['MIN'].replace({'\$': '', '-': ''}, regex=True)
-    #Drop the first line for the team name
-    if statsDF.iloc[0][0] == 'GLOSSARY':
-        statsDF.drop([0,1], inplace=True)
-    else:
-        statsDF.drop(0, inplace=True)
-
-
+    
     # In[34]:
 
     #The nba.com site changed its formatting so this is to remove non-existent rows
@@ -63,9 +57,6 @@ def main_function(stats,games, date, game_counter):
         if row.iloc[0][3:4] == ":":
             statsDF.drop(index, inplace=True)
 
-        
-
-
     # In[35]:
 
     statsDF = statsDF[statsDF.PLAYER != 'PLAYER']
@@ -73,14 +64,11 @@ def main_function(stats,games, date, game_counter):
     statsDF = statsDF[statsDF.MIN != 'PLAYERS']
     statsDF = statsDF[statsDF.PLAYER != 'Click']
     statsDF = statsDF[statsDF.PLAYER != 'GLOSSARY']
-    #Drop the first line for the team name
+    statsDF = statsDF[statsDF.MIN != 'Filter']
     statsDF = statsDF.reset_index(drop=True)
-    # if statsDF.iloc[0][0] == 'GLOSSARY':
-    #     statsDF.drop([0,1], inplace=True)
-    # else:
-    #     statsDF.drop(0, inplace=True)
-    # statsDF = statsDF.reset_index(drop=True)
-
+    #Drop the first line for the team name
+    statsDF.drop(0, inplace=True)
+    statsDF = statsDF.reset_index(drop=True)
 
     # In[36]:
 
