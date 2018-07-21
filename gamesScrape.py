@@ -22,7 +22,7 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Firefox()
 main_dataframe = pd.DataFrame()
-game_counter =  501
+game_counter =  1101
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
@@ -84,10 +84,14 @@ def dataframe_merge(dataframe):
     main_dataframe = main_dataframe.append(dataframe)
     dataframe.drop(dataframe.index, inplace=True)
 
-for i in range(500,600):
+for i in range(1100,1230):
      if i < 9:
          time.sleep(1)
          webpull('http://stats.nba.com/game/002170000{}/'.format(i + 1))
+         game_counter += 1
+     elif i >= 999:
+         time.sleep(1)
+         webpull('http://stats.nba.com/game/002170{}/'.format(i + 1))
          game_counter += 1
      elif i >= 99:
          time.sleep(1)
