@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "flask_app"
+			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Users\\matth\\envs\\venv\\Scripts\\python.exe"
+	}
 }
