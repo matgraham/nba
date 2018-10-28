@@ -1,0 +1,820 @@
+Years
+Wt
+Last_Game_TOV
+AverageTOV
+Last_Game_REB
+AverageREB
+Last_Game_3PM
+Average3PM
+Last_Game_FGM
+AverageFGM
+Last_Game_PTS
+AveragePTS
+Last_Game_AST
+AverageAST
+Last_Game_STL
+AverageSTL
+Last_Game_BLK
+AverageBLK
+game_number
+Name_Aaron Brooks
+Name_Aaron Gordon
+Name_Aaron Harrison
+Name_Aaron Jackson
+Name_Abdel Nader
+Name_Adreian Payne
+Name_Al Horford
+Name_Al Jefferson
+Name_AlFarouq Aminu
+Name_Alan Williams
+Name_Alec Burks
+Name_Alec Peters
+Name_Alex Abrines
+Name_Alex Caruso
+Name_Alex Len
+Name_Alex Poythress
+Name_Alfonzo McKinnie
+Name_Allen Crabbe
+Name_Amir Johnson
+Name_Andre Drummond
+Name_Andre Iguodala
+Name_Andre Ingram
+Name_Andre Roberson
+Name_Andrew Bogut
+Name_Andrew Harrison
+Name_Andrew White
+Name_Andrew Wiggins
+Name_Ante Zizic
+Name_Anthony Brown
+Name_Anthony Davis
+Name_Anthony Tolliver
+Name_Antonio Blakeney
+Name_Antonius Cleveland
+Name_Aron Baynes
+Name_Arron Afflalo
+Name_Austin Rivers
+Name_Avery Bradley
+Name_Bam Adebayo
+Name_Ben McLemore
+Name_Ben Moore
+Name_Ben Simmons
+Name_Bismack Biyombo
+Name_Blake Griffin
+Name_Boban Marjanovic
+Name_Bobby Brown
+Name_Bobby Portis
+Name_Bogdan Bogdanovic
+Name_Bojan Bogdanovic
+Name_Bradley Beal
+Name_Brandan Wright
+Name_Brandon Ingram
+Name_Brandon Jennings
+Name_Brandon Paul
+Name_Briante Weber
+Name_Brice Johnson
+Name_Brook Lopez
+Name_Bruno Caboclo
+Name_Bryn Forbes
+Name_Buddy Hield
+Name_CJ McCollum
+Name_CJ Miles
+Name_CJ Williams
+Name_Caleb Swanigan
+Name_Cameron Payne
+Name_Caris LeVert
+Name_Carmelo Anthony
+Name_Cedi Osman
+Name_Chandler Parsons
+Name_Channing Frye
+Name_Charles Cooke
+Name_Cheick Diallo
+Name_Chinanu Onuaku
+Name_Chris Boucher
+Name_Chris McCullough
+Name_Chris Paul
+Name_Clint Capela
+Name_Cody Zeller
+Name_Cole Aldrich
+Name_Corey Brewer
+Name_Cory Joseph
+Name_Courtney Lee
+Name_Cristiano Felicio
+Name_DAngelo Russell
+Name_DJ Augustin
+Name_DJ Wilson
+Name_Dakari Johnson
+Name_Damian Jones
+Name_Damian Lillard
+Name_Damien Wilkins
+Name_Damion Lee
+Name_Damyean Dotson
+Name_Daniel Hamilton
+Name_Daniel Theis
+Name_Danilo Gallinari
+Name_Danny Green
+Name_Dante Cunningham
+Name_Dante Exum
+Name_Danuel House
+Name_Dario Saric
+Name_Darius Miller
+Name_Darrell Arthur
+Name_Darren Collison
+Name_Darrun Hilliard
+Name_David Nwaba
+Name_David Stockton
+Name_David West
+Name_Davis Bertans
+Name_Davon Reed
+Name_DeAaron Fox
+Name_DeAndre Bembry
+Name_DeAndre Jordan
+Name_DeAndre Liggins
+Name_DeMar DeRozan
+Name_DeMarcus Cousins
+Name_DeMarre Carroll
+Name_Dejounte Murray
+Name_Delon Wright
+Name_Demetrius Jackson
+Name_Dennis Schroder
+Name_Dennis Smith
+Name_Denzel Valentine
+Name_Derrick Favors
+Name_Derrick Jones
+Name_Derrick Rose
+Name_Derrick Walton
+Name_Derrick White
+Name_Devin Booker
+Name_Devin Harris
+Name_Devin Robinson
+Name_Dewayne Dedmon
+Name_Deyonta Davis
+Name_Dillon Brooks
+Name_Dion Waiters
+Name_Dirk Nowitzki
+Name_Domantas Sabonis
+Name_Donovan Mitchell
+Name_Dorian FinneySmith
+Name_Doug McDermott
+Name_Dragan Bender
+Name_Draymond Green
+Name_Dwayne Bacon
+Name_Dwight Buycks
+Name_Dwight Howard
+Name_Dwight Powell
+Name_Dwyane Wade
+Name_ETwaun Moore
+Name_Ed Davis
+Name_Edmond Sumner
+Name_Ekpe Udoh
+Name_Elfrid Payton
+Name_Emeka Okafor
+Name_Emmanuel Mudiay
+Name_Enes Kanter
+Name_Eric Bledsoe
+Name_Eric Gordon
+Name_Eric Moreland
+Name_Erik McCree
+Name_Ersan Ilyasova
+Name_Evan Fournier
+Name_Evan Turner
+Name_Frank Kaminsky
+Name_Frank Mason
+Name_Frank Ntilikina
+Name_Fred VanVleet
+Name_Furkan Korkmaz
+Name_Garrett Temple
+Name_Gary Harris
+Name_Gary Payton
+Name_George Hill
+Name_Georges Niang
+Name_Georgios Papagiannis
+Name_Gerald Green
+Name_Gian Clavell
+Name_Giannis Antetokounmpo
+Name_Glenn Robinson
+Name_Goran Dragic
+Name_Gordon Hayward
+Name_Gorgui Dieng
+Name_Greg Monroe
+Name_Guerschon Yabusele
+Name_Harrison Barnes
+Name_Hassan Whiteside
+Name_Henry Ellenson
+Name_Ian Clark
+Name_Ian Mahinmi
+Name_Ike Anigbogu
+Name_Iman Shumpert
+Name_Isaiah Canaan
+Name_Isaiah Hicks
+Name_Isaiah Taylor
+Name_Isaiah Thomas
+Name_Isaiah Whitehead
+Name_Ish Smith
+Name_Ivan Rabb
+Name_Ivica Zubac
+Name_JJ Barea
+Name_JJ Redick
+Name_JR Smith
+Name_JaKarr Sampson
+Name_JaMychal Green
+Name_JaVale McGee
+Name_Jabari Bird
+Name_Jabari Parker
+Name_Jack Cooley
+Name_Jacob Pullen
+Name_Jacob Wiley
+Name_Jae Crowder
+Name_Jahlil Okafor
+Name_Jake Layman
+Name_Jakob Poeltl
+Name_Jalen Jones
+Name_Jamal Crawford
+Name_Jamal Murray
+Name_Jameel Warney
+Name_Jameer Nelson
+Name_Jamel Artis
+Name_James Ennis
+Name_James Harden
+Name_James Johnson
+Name_James Michael
+Name_James Webb
+Name_James Young
+Name_Jamil Wilson
+Name_Jared Dudley
+Name_Jarell Eddie
+Name_Jarell Martin
+Name_Jarrett Allen
+Name_Jarrett Jack
+Name_Jason Smith
+Name_Jason Terry
+Name_Jawun Evans
+Name_Jaylen Brown
+Name_Jaylen Morris
+Name_Jayson Tatum
+Name_Jeff Green
+Name_Jeff Teague
+Name_Jeff Withey
+Name_Jerami Grant
+Name_Jeremy Evans
+Name_Jeremy Lamb
+Name_Jeremy Lin
+Name_Jerian Grant
+Name_Jerryd Bayless
+Name_Jimmy Butler
+Name_Joakim Noah
+Name_Jodie Meeks
+Name_Joe Harris
+Name_Joe Ingles
+Name_Joe Johnson
+Name_Joe Young
+Name_Joel Bolomboy
+Name_Joel Embiid
+Name_Joffrey Lauvergne
+Name_John Collins
+Name_John Henson
+Name_John Holland
+Name_John Wall
+Name_Johnathan Motley
+Name_Johnny OBryant
+Name_Jon Leuer
+Name_Jonas Jerebko
+Name_Jonas Valanciunas
+Name_Jonathan Gibson
+Name_Jonathan Isaac
+Name_Jonathon Simmons
+Name_Jordan Bell
+Name_Jordan Clarkson
+Name_Jordan Crawford
+Name_Jordan Mickey
+Name_Jose Calderon
+Name_Josh Hart
+Name_Josh Huestis
+Name_Josh Jackson
+Name_Josh Magette
+Name_Josh Richardson
+Name_Jrue Holiday
+Name_Juancho Hernangomez
+Name_Julius Randle
+Name_Julyan Stone
+Name_Justin Anderson
+Name_Justin Holiday
+Name_Justin Jackson
+Name_Justin Patton
+Name_Justise Winslow
+Name_Jusuf Nurkic
+Name_Kadeem Allen
+Name_KarlAnthony Towns
+Name_Kawhi Leonard
+Name_Kay Felder
+Name_Kelly Olynyk
+Name_Kelly Oubre
+Name_Kemba Walker
+Name_Kendrick Perkins
+Name_Kenneth Faried
+Name_Kent Bazemore
+Name_Kentavious CaldwellPope
+Name_Kevin Durant
+Name_Kevin Love
+Name_Kevon Looney
+Name_Khem Birch
+Name_Khris Middleton
+Name_Klay Thompson
+Name_Kobi Simmons
+Name_Kosta Koufos
+Name_Kris Dunn
+Name_Kristaps Porzingis
+Name_Kyle Anderson
+Name_Kyle Collinsworth
+Name_Kyle Korver
+Name_Kyle Kuzma
+Name_Kyle Lowry
+Name_Kyle OQuinn
+Name_Kyle Singler
+Name_Kyrie Irving
+Name_LaMarcus Aldridge
+Name_Lance Stephenson
+Name_Lance Thomas
+Name_Langston Galloway
+Name_Larry Drew
+Name_Larry Nance
+Name_Lauri Markkanen
+Name_LeBron James
+Name_Lonzo Ball
+Name_Lorenzo Brown
+Name_Lou Williams
+Name_Luc Mbah
+Name_Lucas Nogueira
+Name_Luke Babbitt
+Name_Luke Kennard
+Name_Luke Kornet
+Name_Luol Deng
+Name_Malachi Richardson
+Name_Malcolm Brogdon
+Name_Malcolm Delaney
+Name_Malcolm Miller
+Name_Malik Beasley
+Name_Malik Monk
+Name_Mangok Mathiang
+Name_Manu Ginobili
+Name_MarShon Brooks
+Name_Marc Gasol
+Name_Marcin Gortat
+Name_Marco Belinelli
+Name_Marcus GeorgesHunt
+Name_Marcus Morris
+Name_Marcus Paige
+Name_Marcus Smart
+Name_Mario Chalmers
+Name_Mario Hezonja
+Name_Markel Brown
+Name_Markelle Fultz
+Name_Markieff Morris
+Name_Marquese Chriss
+Name_Marquis Teague
+Name_Marreese Speights
+Name_Marshall Plumlee
+Name_Marvin Williams
+Name_Mason Plumlee
+Name_Matt Costello
+Name_Matthew Dellavedova
+Name_Maurice Harkless
+Name_Maxi Kleber
+Name_Meyers Leonard
+Name_Michael Beasley
+Name_Michael CarterWilliams
+Name_Michael KiddGilchrist
+Name_Mike Conley
+Name_Mike James
+Name_Mike Muscala
+Name_Mike Scott
+Name_Miles Plumlee
+Name_Milos Teodosic
+Name_Milton Doyle
+Name_Mirza Teletovic
+Name_Monte Morris
+Name_Montrezl Harrell
+Name_Myke Henry
+Name_Myles Turner
+Name_Nemanja Bjelica
+Name_Nene nan
+Name_Nerlens Noel
+Name_Nick Collison
+Name_Nick Young
+Name_Nicolas Batum
+Name_Nigel Hayes
+Name_Nik Stauskas
+Name_Nikola Jokic
+Name_Nikola Mirotic
+Name_Nikola Vucevic
+Name_Noah Vonleh
+Name_Norman Powell
+Name_OG Anunoby
+Name_Okaro White
+Name_Omari Johnson
+Name_Omer Asik
+Name_Omri Casspi
+Name_Otto Porter
+Name_PJ Tucker
+Name_Pascal Siakam
+Name_Pat Connaughton
+Name_Patrick Beverley
+Name_Patrick McCaw
+Name_Patrick Patterson
+Name_Patty Mills
+Name_Pau Gasol
+Name_Paul George
+Name_Paul Millsap
+Name_Paul Zipser
+Name_Quincy Acy
+Name_Quincy Pondexter
+Name_Quinn Cook
+Name_Rajon Rondo
+Name_Ramon Sessions
+Name_Rashad Vaughn
+Name_Raul Neto
+Name_Raymond Felton
+Name_Reggie Bullock
+Name_Reggie Hearn
+Name_Reggie Jackson
+Name_Richard Jefferson
+Name_Richaun Holmes
+Name_Ricky Rubio
+Name_Robert Covington
+Name_Robin Lopez
+Name_Rodney Hood
+Name_Rodney McGruder
+Name_Rodney Purvis
+Name_Ron Baker
+Name_Rondae HollisJefferson
+Name_Royce ONeale
+Name_Rudy Gay
+Name_Rudy Gobert
+Name_Russell Westbrook
+Name_Ryan Anderson
+Name_Ryan Arcidiacono
+Name_Salah Mejri
+Name_Sam Dekker
+Name_Sean Kilpatrick
+Name_Semi Ojeleye
+Name_Serge Ibaka
+Name_Shabazz Muhammad
+Name_Shabazz Napier
+Name_Shane Larkin
+Name_Shaquille Harrison
+Name_Shaun Livingston
+Name_Shelvin Mack
+Name_Sindarius Thornwell
+Name_Skal Labissiere
+Name_Solomon Hill
+Name_Spencer Dinwiddie
+Name_Stanley Johnson
+Name_Stephen Curry
+Name_Sterling Brown
+Name_Steven Adams
+Name_TJ Leaf
+Name_TJ McConnell
+Name_TJ Warren
+Name_Taj Gibson
+Name_Tarik Black
+Name_Taurean Prince
+Name_Terrance Ferguson
+Name_Terrence Ross
+Name_Terry Rozier
+Name_Thabo Sefolosha
+Name_Thaddeus Young
+Name_Thomas Bryant
+Name_Thon Maker
+Name_Tim Frazier
+Name_Tim Hardaway
+Name_Timofey Mozgov
+Name_Timothe LuwawuCabarrot
+Name_Tobias Harris
+Name_Tomas Satoransky
+Name_Tony Allen
+Name_Tony Bradley
+Name_Tony Parker
+Name_Tony Snell
+Name_Torrey Craig
+Name_Travis Wear
+Name_Treveon Graham
+Name_Trevor Ariza
+Name_Trevor Booker
+Name_Trey Burke
+Name_Trey Lyles
+Name_Tristan Thompson
+Name_Troy Daniels
+Name_Troy Williams
+Name_Tyler Cavanaugh
+Name_Tyler Dorsey
+Name_Tyler Ennis
+Name_Tyler Johnson
+Name_Tyler Lydon
+Name_Tyler Ulis
+Name_Tyler Zeller
+Name_Tyreke Evans
+Name_Tyrone Wallace
+Name_Tyson Chandler
+Name_Tyus Jones
+Name_Udonis Haslem
+Name_Victor Oladipo
+Name_Vince Carter
+Name_Wade Baldwin
+Name_Wayne Ellington
+Name_Wayne Selden
+Name_Wes Iwundu
+Name_Wesley Johnson
+Name_Wesley Matthews
+Name_Will Barton
+Name_Willie CauleyStein
+Name_Willie Reed
+Name_Willy Hernangomez
+Name_Wilson Chandler
+Name_Xavier Munford
+Name_Xavier Silas
+Name_Yogi Ferrell
+Name_Zach Collins
+Name_Zach LaVine
+Name_Zach Randolph
+Name_Zaza Pachulia
+Name_Zhou Qi
+Ref1_Adams"
+Ref1_Ayotte"
+Ref1_Barnaky"
+Ref1_Boland"
+Ref1_Brothers"
+Ref1_Brown"
+Ref1_Buchert"
+Ref1_Callahan"
+Ref1_Capers"
+Ref1_Collins"
+Ref1_Corbin"
+Ref1_Cutler"
+Ref1_Dalen"
+Ref1_Davis"
+Ref1_DeRosa"
+Ref1_Fitzgerald"
+Ref1_Forte"
+Ref1_Foster"
+Ref1_Fraher"
+Ref1_Garretson"
+Ref1_Goble"
+Ref1_Guthrie"
+Ref1_Kennedy"
+Ref1_Kirkland"
+Ref1_Kogut"
+Ref1_Lewis"
+Ref1_Lindsay"
+Ref1_Malloy"
+Ref1_Mauer"
+Ref1_McCutchen"
+Ref1_Mott"
+Ref1_Phillips"
+Ref1_Richardson"
+Ref1_Scott"
+Ref1_Smith"
+Ref1_Spooner"
+Ref1_Stafford"
+Ref1_Tiven"
+Ref1_Wall"
+Ref1_Washington"
+Ref1_Williams"
+Ref1_Wood"
+Ref1_Workman"
+Ref1_Wright"
+Ref1_Zarba"
+Ref1_Zielinski"
+Ref2_Adams"
+Ref2_Ayotte"
+Ref2_Barnaky"
+Ref2_Blair"
+Ref2_Boland"
+Ref2_Brown"
+Ref2_Buchert"
+Ref2_Collins"
+Ref2_Corbin"
+Ref2_Cutler"
+Ref2_Dalen"
+Ref2_Davis"
+Ref2_DeRosa"
+Ref2_Ervin"
+Ref2_Fitzgerald"
+Ref2_Ford"
+Ref2_Forte"
+Ref2_Foster"
+Ref2_Fraher"
+Ref2_Garretson"
+Ref2_Goble"
+Ref2_Guthrie"
+Ref2_Holtkamp"
+Ref2_Kennedy"
+Ref2_Kirkland"
+Ref2_Kogut"
+Ref2_Lane"
+Ref2_Lewis"
+Ref2_Lindsay"
+Ref2_Maddox"
+Ref2_Malloy"
+Ref2_Mauer"
+Ref2_Mott"
+Ref2_Nansel"
+Ref2_Orr"
+Ref2_Petraitis"
+Ref2_Phillips"
+Ref2_Richardson"
+Ref2_Scott"
+Ref2_Smith"
+Ref2_Spooner"
+Ref2_Stafford"
+Ref2_Taylor"
+Ref2_Tiven"
+Ref2_Twardoski"
+Ref2_Van
+Ref2_Wall"
+Ref2_Washington"
+Ref2_Williams"
+Ref2_Wood"
+Ref2_Workman"
+Ref2_Wright"
+Ref2_Zarba"
+Ref2_Zielinski"
+Ref3_Acosta
+Ref3_Adair
+Ref3_Adams
+Ref3_Ayotte
+Ref3_Barnaky
+Ref3_Blair
+Ref3_Boland
+Ref3_Brown
+Ref3_Buchert
+Ref3_Collins
+Ref3_Cutler
+Ref3_Dalen
+Ref3_Davis
+Ref3_Ervin
+Ref3_Fitzgerald
+Ref3_Ford
+Ref3_Forte
+Ref3_Fraher
+Ref3_Goble
+Ref3_Goldenberg
+Ref3_Guthrie
+Ref3_Holtkamp
+Ref3_Kirkland
+Ref3_Kogut
+Ref3_Lane
+Ref3_Lewis
+Ref3_Lindsay
+Ref3_Maddox
+Ref3_Malloy
+Ref3_Myers
+Ref3_Nansel
+Ref3_Orr
+Ref3_Petraitis
+Ref3_Phillips
+Ref3_Ransom
+Ref3_Richardson
+Ref3_Scott
+Ref3_Smith
+Ref3_Sterling
+Ref3_Taylor
+Ref3_Tiven
+Ref3_Twardoski
+Ref3_Tyler
+Ref3_Van
+Ref3_Voyard-Tadal
+Ref3_Wall
+Ref3_Washington
+Ref3_Williams
+Ref3_Wood
+Ref3_Workman
+Ref3_Wright
+Ref3_Zarba
+Ref3_Zielinski
+Team_ATL
+Team_BKN
+Team_BOS
+Team_CHA
+Team_CHI
+Team_CLE
+Team_DAL
+Team_DEN
+Team_DET
+Team_GSW
+Team_HOU
+Team_IND
+Team_LAC
+Team_LAL
+Team_MEM
+Team_MIA
+Team_MIL
+Team_MIN
+Team_NOP
+Team_NYK
+Team_OKC
+Team_ORL
+Team_PHI
+Team_PHX
+Team_POR
+Team_SAC
+Team_SAS
+Team_TOR
+Team_UTA
+Team_WAS
+Pos_C
+Pos_C-F
+Pos_F
+Pos_F-C
+Pos_F-G
+Pos_G
+Pos_G 
+Pos_G-F
+Ht_1-Jul
+Ht_1-Jun
+Ht_10-Jun
+Ht_10-May
+Ht_11-Jun
+Ht_11-May
+Ht_2-Jun
+Ht_3-Jul
+Ht_3-Jun
+Ht_4-Jun
+Ht_5-Jun
+Ht_6
+Ht_6-Jun
+Ht_6.02
+Ht_6.03
+Ht_6.04
+Ht_6.05
+Ht_6.06
+Ht_6.07
+Ht_6.08
+Ht_6.09
+Ht_6.1
+Ht_6.11
+Ht_7
+Ht_7-Jun
+Ht_8-Jun
+Ht_9-Jun
+Ht_9-May
+Ht_Jul-00
+Ht_Jun-00
+Home/Away_ATL
+Home/Away_BKN
+Home/Away_BOS
+Home/Away_CHA
+Home/Away_CHI
+Home/Away_CLE
+Home/Away_DAL
+Home/Away_DEN
+Home/Away_DET
+Home/Away_GSW
+Home/Away_HOU
+Home/Away_IND
+Home/Away_LAC
+Home/Away_LAL
+Home/Away_MEM
+Home/Away_MIA
+Home/Away_MIL
+Home/Away_MIN
+Home/Away_NOP
+Home/Away_NYK
+Home/Away_OKC
+Home/Away_ORL
+Home/Away_PHI
+Home/Away_PHX
+Home/Away_POR
+Home/Away_SAC
+Home/Away_SAS
+Home/Away_TOR
+Home/Away_UTA
+Home/Away_WAS
+Opponent_ATL
+Opponent_BKN
+Opponent_BOS
+Opponent_CHA
+Opponent_CHI
+Opponent_CLE
+Opponent_DAL
+Opponent_DEN
+Opponent_DET
+Opponent_GSW
+Opponent_HOU
+Opponent_IND
+Opponent_LAC
+Opponent_LAL
+Opponent_MEM
+Opponent_MIA
+Opponent_MIL
+Opponent_MIN
+Opponent_NOP
+Opponent_NYK
+Opponent_OKC
+Opponent_ORL
+Opponent_PHI
+Opponent_PHX
+Opponent_POR
+Opponent_SAC
+Opponent_SAS
+Opponent_TOR
+Opponent_UTA
+Opponent_WAS
