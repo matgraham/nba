@@ -1,625 +1,624 @@
-<<<<<<< HEAD
-Player	Years	Pos	Ht	Wt
-Alize Johnson	1	F	6.09	250
-Alize Johnson	1	F	6.09	250
-Alize Johnson	1	F	6.09	250
-Chandler Hutchison	1	G-F	6.07	225
-Chandler Hutchison	1	G-F	6.07	225
-Chandler Hutchison	1	G-F	6.07	225
-Chandler Hutchison	1	G-F	6.07	225
-Chimezie Metu	1	F	6.1	245
-Chimezie Metu	1	F	6.1	245
-CJ Williams	3	G	5-Jun	225
-CJ Williams	3	G	5-Jun	225
-Daryl Macon	1	G	6.03	185
-DeAnthony Melton	1	G	6.04	190
-Deonte Burton	2	F	6.05	245
-Deonte Burton	2	F	6.05	245
-DeVaughn AkoonPurcell	3	G	6.06	201
-Devonte Graham	1	G	6.02	185
-Devonte Graham	1	G	6.02	185
-Drew Eubanks	1	F	6.1	225
-Drew Eubanks	1	F	6.1	225
-Duncan Robinson	1	F	6.08	225
-Dzanan Musa	1	F	6.09	215
-Dzanan Musa	1	F	6.09	215
-Grayson Allen	1	G	6.05	200
-Grayson Allen	1	G	6.05	200
-Grayson Allen	1	G	6.05	200
-Isaiah Briscoe	2	G	6.03	200
-Isaiah Briscoe	2	G	6.03	200
-Isaiah Briscoe	2	G	6.03	200
-Jacob Evans	1	G	6.06	209
-Jacob Evans	1	G	6.06	209
-Jacob Evans	1	G	6.06	209
-Johnathan Williams	1	G	6.09	228
-Johnathan Williams	1	G	6.09	228
-Johnathan Williams	1	G	6.09	228
-Johnathan Williams	1	G	6.09	228
-Josh Okogie	1	G	6.04	205
-Josh Okogie	1	G	6.04	205
-Josh Okogie	1	G	6.04	205
-Josh Okogie	1	G	6.04	205
-JR Smith	16	G-F	6-Jun	225
-JR Smith	16	G-F	6-Jun	225
-JR Smith	16	G-F	6-Jun	225
-JR Smith	16	G-F	6-Jun	225
-Keita BatesDiop	1	F	6.09	230
-Robert Williams	1	F	6.1	235
-Robert Williams	1	F	6.1	235
-Rondae HollisJefferson	5	F	7-Jun	220
-Rondae HollisJefferson	5	F	7-Jun	220
-Svi Mykhailiuk	1	G	6.08	225
-Svi Mykhailiuk	1	G	6.08	225
-Svi Mykhailiuk	1	G	6.08	225
-Svi Mykhailiuk	1	G	6.08	225
-Theo Pinson	1	F	6.06	225
-Theo Pinson	1	F	6.06	225
-Thomas Welsh	1	C	7	240
-Thomas Welsh	1	C	7	240
-Wendell Carter	1	C-F	6-Jan	245
-Wendell Carter	1	C-F	6-Jan	245
-Wendell Carter	1	C-F	6-Jan	245
-Wendell Carter	1	C-F	6-Jan	245
-Wendell Carter	1	C-F	6-Jan	245
-Wes Iwundu	2	G-F	6.07	230
-Wes Iwundu	2	G-F	6.07	230
-Wes Iwundu	2	G-F	6.07	230
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-=======
-﻿Player,Years,Pos,Ht,Wt
-Alex Abrines,3,G-F,6-Jun,190
-Steven Adams,6,C,Jul-00,255
-Bam Adebayo,2,C-F,10-Jun,243
-Bam Adebayo,2,C-F,10-Jun,243
-LaMarcus Aldridge,13,F-C,11-Jun,260
-Jarrett Allen,2,F-C,10-Jun,234
-Kyle Anderson,5,F-G,9-Jun,230
-Ryan Anderson,11,F,10-Jun,240
-Giannis Antetokounmpo,6,F-G,11-Jun,222
-Carmelo Anthony,16,F,8-Jun,240
-OG Anunoby,2,F,8-Jun,232
-Ryan Arcidiacono,2,G,3-Jun,188
-Trevor Ariza,15,F,8-Jun,215
-Ron Baker,3,G,4-Jun,220
-Lonzo Ball,2,G,6-Jun,190
-Will Barton,7,G,6-Jun,175
-Nicolas Batum,11,F-G,8-Jun,200
-Aron Baynes,7,C,10-Jun,260
-Kent Bazemore,7,G-F,5-Jun,201
-Bradley Beal,7,G,5-Jun,207
-Malik Beasley,3,G,5-Jun,196
-Michael Beasley,11,F,9-Jun,235
-Marco Belinelli,12,G-F,5-Jun,210
-Jordan Bell,2,F,9-Jun,224
-Davis Bertans,3,F,10-Jun,210
-Patrick Beverley,7,G,1-Jun,185
-Nemanja Bjelica,4,F,10-Jun,240
-Antonio Blakeney,2,G,4-Jun,197
-Eric Bledsoe,9,G,1-Jun,205
-Bojan Bogdanovic,5,G-F,8-Jun,216
-Devin Booker,4,G,6-Jun,206
-Avery Bradley,9,G,2-Jun,180
-Malcolm Brogdon,3,G,5-Jun,215
-Dillon Brooks,2,F-G,6-Jun,220
-MarShon Brooks,8,G-F,5-Jun,200
-Jaylen Brown,3,F-G,7-Jun,225
-Lorenzo Brown,6,G,5-Jun,189
-Sterling Brown,2,G,5-Jun,225
-Trey Burke,6,G,1-Jun,191
-Alec Burks,8,G,6-Jun,214
-Jimmy Butler,8,F-G,8-Jun,236
-Isaiah Canaan,6,G,Jun-00,201
-Clint Capela,5,C,10-Jun,240
-Vince Carter,21,G-F,6-Jun,220
-Tyson Chandler,18,C,1-Jul,240
-Jordan Clarkson,5,G,5-Jun,194
-Zach Collins,2,C-F,Jul-00,232
-Darren Collison,10,G,Jun-00,175
-Mike Conley,12,G,1-Jun,175
-Quinn Cook,3,G,2-Jun,184
-Robert Covington,6,F,9-Jun,215
-Robert Covington,6,F,9-Jun,215
-Jae Crowder,7,F,6-Jun,235
-Dante Cunningham,10,F,8-Jun,230
-Stephen Curry,10,G,3-Jun,190
-Troy Daniels,6,G,4-Jun,205
-Anthony Davis,7,F-C,10-Jun,253
-Ed Davis,9,F,10-Jun,240
-Sam Dekker,4,F,9-Jun,230
-DeMar DeRozan,10,G-F,7-Jun,221
-Cheick Diallo,3,F,9-Jun,220
-Gorgui Dieng,6,C,11-Jun,241
-Spencer Dinwiddie,5,G,6-Jun,200
-Tyler Dorsey,2,G,5-Jun,183
-Goran Dragic,11,G,3-Jun,190
-Goran Dragic,11,G,3-Jun,190
-Andre Drummond,7,C,11-Jun,279
-Jared Dudley,12,F-G,7-Jun,225
-Kevin Durant,12,F-G,9-Jun,240
-Joel Embiid,3,C,Jul-00,250
-Joel Embiid,3,C,Jul-00,250
-James Ennis,5,F,7-Jun,210
-Tyreke Evans,10,G-F,6-Jun,220
-Dante Exum,5,G,6-Jun,190
-Derrick Favors,9,F-C,10-Jun,265
-Raymond Felton,14,G,1-Jun,205
-Terrance Ferguson,2,G-F,7-Jun,184
-Yogi Ferrell,3,G,Jun-00,180
-Bryn Forbes,3,G,3-Jun,190
-Evan Fournier,7,G-F,7-Jun,205
-Markelle Fultz,2,G,4-Jun,195
-Markelle Fultz,2,G,4-Jun,195
-Danilo Gallinari,11,F,10-Jun,225
-Langston Galloway,5,G,2-Jun,200
-Marc Gasol,11,C,1-Jul,255
-Pau Gasol,18,F-C,Jul-00,250
-Rudy Gay,13,F,8-Jun,230
-Paul George,9,F,9-Jun,220
-Taj Gibson,10,F,9-Jun,225
-Rudy Gobert,6,C,1-Jul,245
-Aaron Gordon,5,F,9-Jun,220
-Eric Gordon,11,G,4-Jun,215
-Marcin Gortat,12,C-F,11-Jun,240
-Treveon Graham,3,G,6-Jun,220
-Jerami Grant,5,F,8-Jun,210
-Jerian Grant,4,G,4-Jun,195
-Danny Green,10,G-F,6-Jun,215
-Draymond Green,7,F,7-Jun,230
-Gerald Green,14,G-F,7-Jun,205
-JaMychal Green,5,F,9-Jun,227
-Jeff Green,12,F,9-Jun,235
-Blake Griffin,9,F,10-Jun,251
-Tim Hardaway,6,G,6-Jun,205
-James Harden,10,G,5-Jun,220
-Maurice Harkless,7,F-G,9-Jun,215
-Montrezl Harrell,4,F-C,8-Jun,240
-Devin Harris,15,G,3-Jun,192
-Gary Harris,5,G,4-Jun,210
-Joe Harris,5,G,6-Jun,219
-Tobias Harris,8,F,9-Jun,235
-Josh Hart,2,G,5-Jun,209
-Gordon Hayward,9,F-G,8-Jun,226
-John Henson,7,C-F,11-Jun,229
-Willy Hernangomez,3,C,11-Jun,240
-Mario Hezonja,4,F-G,8-Jun,215
-Buddy Hield,3,G,4-Jun,214
-George Hill,11,G,3-Jun,188
-Solomon Hill,6,F,7-Jun,225
-Jrue Holiday,10,G,4-Jun,205
-Justin Holiday,7,G,6-Jun,185
-John Holland,2,G-F,5-Jun,205
-Rodney Hood,5,G-F,8-Jun,206
-Al Horford,12,C-F,10-Jun,245
-Serge Ibaka,10,F-C,10-Jun,235
-Andre Iguodala,15,G-F,6-Jun,215
-Ersan Ilyasova,13,F,10-Jun,235
-Joe Ingles,5,F-G,8-Jun,226
-Brandon Ingram,3,F,9-Jun,190
-Kyrie Irving,8,G,3-Jun,193
-Jonathan Isaac,2,F,10-Jun,210
-Josh Jackson,2,F-G,8-Jun,207
-Justin Jackson,2,G-F,8-Jun,200
-Reggie Jackson,8,G,3-Jun,208
-LeBron James,16,F-G,8-Jun,250
-Jonas Jerebko,10,F,10-Jun,231
-Amir Johnson,14,F-C,9-Jun,240
-Amir Johnson,14,F-C,9-Jun,240
-Tyler Johnson,5,G,4-Jun,186
-Tyler Johnson,5,G,4-Jun,186
-Nikola Jokic,4,C-F,10-Jun,250
-Damian Jones,3,F-C,Jul-00,245
-Derrick Jones,3,F,7-Jun,190
-Derrick Jones,3,F,7-Jun,190
-Tyus Jones,4,G,2-Jun,195
-DeAndre Jordan,11,C,11-Jun,265
-Cory Joseph,8,G,3-Jun,193
-Enes Kanter,8,C,11-Jun,245
-Luke Kennard,2,G,6-Jun,206
-Maxi Kleber,2,F,10-Jun,220
-Furkan Korkmaz,2,G,7-Jun,185
-Furkan Korkmaz,2,G,7-Jun,185
-Kyle Korver,16,G-F,7-Jun,212
-Kyle Kuzma,2,F,9-Jun,220
-Jeremy Lamb,7,G-F,5-Jun,185
-Zach LaVine,5,G,5-Jun,189
-Jake Layman,3,F,9-Jun,210
-Alex Len,6,C,1-Jul,260
-Kawhi Leonard,8,F,7-Jun,230
-Meyers Leonard,7,C-F,1-Jul,245
-Caris LeVert,3,G-F,7-Jun,203
-Damian Lillard,7,G,3-Jun,195
-Jeremy Lin,9,G,3-Jun,200
-Shaun Livingston,15,G,7-Jun,192
-Kevon Looney,4,F-C,9-Jun,220
-Brook Lopez,11,C,Jul-00,275
-Robin Lopez,11,C,Jul-00,255
-Kevin Love,11,F,10-Jun,251
-Kyle Lowry,13,G,Jun-00,205
-Trey Lyles,4,F,10-Jun,234
-Shelvin Mack,8,G,3-Jun,203
-Ian Mahinmi,12,C,11-Jun,250
-Boban Marjanovic,4,C,3-Jul,290
-Frank Mason,2,G,Jun-00,189
-Wesley Matthews,10,G,5-Jun,220
-CJ McCollum,6,G,3-Jun,190
-Doug McDermott,5,F,8-Jun,225
-JaVale McGee,11,C,Jul-00,270
-Rodney McGruder,3,G,4-Jun,205
-Rodney McGruder,3,G,4-Jun,205
-Alfonzo McKinnie,2,F,8-Jun,215
-Khris Middleton,7,F-G,8-Jun,234
-Darius Miller,7,F,8-Jun,235
-Patty Mills,10,G,Jun-00,185
-Paul Millsap,13,F,8-Jun,246
-Nikola Mirotic,5,F,10-Jun,220
-Donovan Mitchell,2,G,3-Jun,211
-Malik Monk,2,G,3-Jun,200
-Marcus Morris,8,F,9-Jun,235
-Markieff Morris,8,F,10-Jun,245
-Monte Morris,2,G,3-Jun,175
-Jamal Murray,3,G,4-Jun,207
-Georges Niang,3,F,8-Jun,230
-Nerlens Noel,5,C-F,11-Jun,228
-Frank Ntilikina,2,G,5-Jun,190
-Jusuf Nurkic,5,C,Jul-00,280
-David Nwaba,3,G,4-Jun,209
-Semi Ojeleye,2,F,7-Jun,241
-Jahlil Okafor,4,C-F,11-Jun,275
-Victor Oladipo,6,G,4-Jun,210
-Kelly Olynyk,6,C-F,Jul-00,238
-Kelly Olynyk,6,C-F,Jul-00,238
-Cedi Osman,2,F,8-Jun,210
-Kelly Oubre,4,F,7-Jun,205
-Zaza Pachulia,16,C,11-Jun,270
-Jabari Parker,5,F,8-Jun,250
-Tony Parker,18,G,2-Jun,185
-Chandler Parsons,8,F,10-Jun,230
-Patrick Patterson,9,F,9-Jun,230
-Chris Paul,14,G,Jun-00,175
-Cameron Payne,4,G,3-Jun,185
-Elfrid Payton,5,G,4-Jun,185
-Mason Plumlee,6,C-F,11-Jun,245
-Miles Plumlee,7,C-F,11-Jun,249
-Jakob Poeltl,3,C,Jul-00,248
-Otto Porter,6,F,8-Jun,198
-Bobby Portis,4,F,11-Jun,230
-Dwight Powell,5,F-C,11-Jun,240
-Norman Powell,4,G,4-Jun,215
-Alex Poythress,3,F,7-Jun,238
-Julius Randle,5,F-C,9-Jun,250
-Josh Richardson,4,G,6-Jun,200
-Josh Richardson,4,G,6-Jun,200
-Malachi Richardson,3,G,6-Jun,205
-Austin Rivers,7,G,4-Jun,200
-Glenn Robinson,5,G-F,6-Jun,222
-Rajon Rondo,13,G,1-Jun,186
-Derrick Rose,11,G,3-Jun,190
-Terrence Ross,7,F-G,7-Jun,206
-Terry Rozier,4,G,2-Jun,190
-Ricky Rubio,8,G,4-Jun,194
-Domantas Sabonis,3,F-C,11-Jun,240
-Dario Saric,3,F,10-Jun,223
-Dario Saric,3,F,10-Jun,223
-Tomas Satoransky,3,G,7-Jun,210
-Dennis Schroder,6,G,1-Jun,172
-Mike Scott,7,F,8-Jun,237
-Wayne Selden,3,G-F,5-Jun,230
-Iman Shumpert,8,G,5-Jun,220
-Pascal Siakam,3,F,9-Jun,230
-Ben Simmons,2,G-F,10-Jun,230
-Ben Simmons,2,G-F,10-Jun,230
-Jonathon Simmons,4,G-F,6-Jun,195
-Marcus Smart,5,G,4-Jun,220
-Dennis Smith,2,G,3-Jun,195
-Ish Smith,9,G,Jun-00,175
-Jason Smith,12,F-C,Jul-00,245
-Tony Snell,6,G-F,7-Jun,200
-Nik Stauskas,5,G,6-Jun,205
-Lance Stephenson,9,G-F,5-Jun,230
-Edmond Sumner,2,G,6-Jun,176
-Jayson Tatum,2,F,8-Jun,205
-Jeff Teague,10,G,2-Jun,186
-Garrett Temple,10,G,6-Jun,195
-Daniel Theis,2,C,9-Jun,215
-Lance Thomas,8,F,8-Jun,235
-Klay Thompson,8,G-F,7-Jun,215
-Tristan Thompson,8,F-C,9-Jun,238
-Anthony Tolliver,11,F-C,8-Jun,240
-Evan Turner,9,G,7-Jun,220
-Myles Turner,4,C-F,11-Jun,243
-Tyler Ulis,3,G,10-May,150
-Jonas Valanciunas,7,C,Jul-00,265
-Fred VanVleet,3,G,Jun-00,195
-Noah Vonleh,5,F,10-Jun,240
-Nikola Vucevic,8,C,Jul-00,260
-Dwyane Wade,16,G,4-Jun,220
-Dwyane Wade,16,G,4-Jun,220
-Kemba Walker,8,G,1-Jun,172
-John Wall,9,G,4-Jun,195
-Hassan Whiteside,9,C,Jul-00,265
-Hassan Whiteside,9,C,Jul-00,265
-Andrew Wiggins,5,F-G,8-Jun,199
-Lou Williams,14,G,1-Jun,175
-Marvin Williams,14,F,9-Jun,237
-Guerschon Yabusele,2,F,7-Jun,260
-Thaddeus Young,12,F,8-Jun,221
-Cody Zeller,6,C-F,Jul-00,240
-Ante Zizic,2,F-C,11-Jun,250
-JJ Redick,13,G,6.04,195
-TJ McConnell,3,G,6.02,200
-Landry Shamet,1,G,6.05,210
-Jonah Bolden,2,F,6.1,250
-Brad Wanamaker,7,G,6.04,205
-Hamidou Diallo,1,G,6.05,205
-Donte DiVincenzo,1,G,6.05,205
-Christian Wood,3,F-C,6.1,240
-Michael KiddGilchrist,6,F,6.07,210
-Miles Bridges,1,F,6.07,225
-DAngelo Russell,3,G,6.05,210
-Rodions Kurucs,1,F,6.09,210
-Bruce Brown,1,G,6.05,202
-Zach Lofton,1,G,6.04,200
-Jaren Jackson,1,F-C,6.11,250
-TJ Leaf,2,F,6.1,240
-Aaron Holiday,1,G,6.01,190
-Kyle OQuinn,7,C-F,6.1,240
-DJ Augustin,11,G,6,185
-Mohamed Bamba,1,C,7,235
-Taurean Prince,3,F,6.07,230
-Trae Young,1,G,6.02,190
-DeAndre Bembry,3,F-G,6.06,225
-Omari Spellman,1,F,6.09,235
-Kevin Huerter,1,G,6.07,190
-Jaylen Adams,1,G,6.02,190
-Kevin Knox,1,F-G,6.09,215
-Mitchell Robinson,1,C,7.04,245
-Allonzo Trier,1,G,6.05,200
-Collin Sexton,1,G,6.02,200
-CJ Miles,14,F-G,6.06,225
-ETwaun Moore,7,G-F,6.04,200
-Kenrich Williams,1,F,6.07,225
-Frank Jackson,2,G,6.03,195
-PJ Tucker,13,F,6.05,210
-Michael CarterWilliams,7,G ,6.06,210
-Gary Clark,1,F,6.08,225
-Isaiah Hartenstein,2,F-C,7,250
-KarlAnthony Towns,4,C,7,235
-Royce ONeale,4,F,6.06,225
-Willie CauleyStein,4,C,7,250
-DeAaron Fox,4,G,6.05,210
-Marvin Bagley,1,F-C,6.11,245
-Harry Giles,2,F-C,6.11,245
-Juancho Hernangomez,3,F,6.09,220
-Shai GilgeousAlexander,1,G,6.06,210
-Luc Mbah,11,F,6.08,235
-Dorian FinneySmith,3,F,6.08,225
-Luka Doncic,1,G-F,6.07,225
-JJ Barea,13,G,6,170
-Ryan Broekhoff,6,F,6.07,213
-Jalen Brunson,1,G,6.03,200
-Ray Spalding,1,F,6.1,216
-Deandre Ayton,1,C,7.1,250
-TJ Warren,5,F,6.04,210
-Elie Okobo,1,G,6.02,181
-Mikal Bridges,1,G-F,6.07,215
-TJ McConnell,4,G,6.02,200
-JJ Redick,13,G,6.04,195
-Landry Shamet,1,G,6.05,210
-Jonah Bolden,2,F,6.1,250
-Kentavious CaldwellPope,6,G,6.05,200
-AlFarouq Aminu,9,F,6.1,250
-Seth Curry,2,G,6.1,190
->>>>>>> deef077d49b388f0dd75d4c258f43367fb8790e1
+Player,Years,Pos,Ht,Wt
+Alize Johnson,1,F,6.09,250
+Alize Johnson,1,F,6.09,250
+Alize Johnson,1,F,6.09,250
+Chandler Hutchison,1,G-F,6.07,225
+Chandler Hutchison,1,G-F,6.07,225
+Chandler Hutchison,1,G-F,6.07,225
+Chandler Hutchison,1,G-F,6.07,225
+Chimezie Metu,1,F,6.1,245
+Chimezie Metu,1,F,6.1,245
+CJ Williams,3,G,5-Jun,225
+CJ Williams,3,G,5-Jun,225
+Daryl Macon,1,G,6.03,185
+DeAnthony Melton,1,G,6.04,190
+Deonte Burton,2,F,6.05,245
+Deonte Burton,2,F,6.05,245
+DeVaughn AkoonPurcell,3,G,6.06,201
+Devonte Graham,1,G,6.02,185
+Devonte Graham,1,G,6.02,185
+Drew Eubanks,1,F,6.1,225
+Drew Eubanks,1,F,6.1,225
+Duncan Robinson,1,F,6.08,225
+Dzanan Musa,1,F,6.09,215
+Dzanan Musa,1,F,6.09,215
+Grayson Allen,1,G,6.05,200
+Grayson Allen,1,G,6.05,200
+Grayson Allen,1,G,6.05,200
+Isaiah Briscoe,2,G,6.03,200
+Isaiah Briscoe,2,G,6.03,200
+Isaiah Briscoe,2,G,6.03,200
+Jacob Evans,1,G,6.06,209
+Jacob Evans,1,G,6.06,209
+Jacob Evans,1,G,6.06,209
+Johnathan Williams,1,G,6.09,228
+Johnathan Williams,1,G,6.09,228
+Johnathan Williams,1,G,6.09,228
+Johnathan Williams,1,G,6.09,228
+Josh Okogie,1,G,6.04,205
+Josh Okogie,1,G,6.04,205
+Josh Okogie,1,G,6.04,205
+Josh Okogie,1,G,6.04,205
+JR Smith,16,G-F,6-Jun,225
+JR Smith,16,G-F,6-Jun,225
+JR Smith,16,G-F,6-Jun,225
+JR Smith,16,G-F,6-Jun,225
+Keita BatesDiop,1,F,6.09,230
+Robert Williams,1,F,6.1,235
+Robert Williams,1,F,6.1,235
+Rondae HollisJefferson,5,F,7-Jun,220
+Rondae HollisJefferson,5,F,7-Jun,220
+Svi Mykhailiuk,1,G,6.08,225
+Svi Mykhailiuk,1,G,6.08,225
+Svi Mykhailiuk,1,G,6.08,225
+Svi Mykhailiuk,1,G,6.08,225
+Theo Pinson,1,F,6.06,225
+Theo Pinson,1,F,6.06,225
+Thomas Welsh,1,C,7,240
+Thomas Welsh,1,C,7,240
+Wendell Carter,1,C-F,6-Jan,245
+Wendell Carter,1,C-F,6-Jan,245
+Wendell Carter,1,C-F,6-Jan,245
+Wendell Carter,1,C-F,6-Jan,245
+Wendell Carter,1,C-F,6-Jan,245
+Wes Iwundu,2,G-F,6.07,230
+Wes Iwundu,2,G-F,6.07,230
+Wes Iwundu,2,G-F,6.07,230
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+=======,,,,
+﻿Player,,,,
+Alex,,,,
+Steven,,,,
+Bam,,,,
+Bam,,,,
+LaMarcus,,,,
+Jarrett,,,,
+Kyle,,,,
+Ryan,,,,
+Giannis,,,,
+Carmelo,,,,
+OG,,,,
+Ryan,,,,
+Trevor,,,,
+Ron,,,,
+Lonzo,,,,
+Will,,,,
+Nicolas,,,,
+Aron,,,,
+Kent,,,,
+Bradley,,,,
+Malik,,,,
+Michael,,,,
+Marco,,,,
+Jordan,,,,
+Davis,,,,
+Patrick,,,,
+Nemanja,,,,
+Antonio,,,,
+Eric,,,,
+Bojan,,,,
+Devin,,,,
+Avery,,,,
+Malcolm,,,,
+Dillon,,,,
+MarShon,,,,
+Jaylen,,,,
+Lorenzo,,,,
+Sterling,,,,
+Trey,,,,
+Alec,,,,
+Jimmy,,,,
+Isaiah,,,,
+Clint,,,,
+Vince,,,,
+Tyson,,,,
+Jordan,,,,
+Zach,,,,
+Darren,,,,
+Mike,,,,
+Quinn,,,,
+Robert,,,,
+Robert,,,,
+Jae,,,,
+Dante,,,,
+Stephen,,,,
+Troy,,,,
+Anthony,,,,
+Ed,,,,
+Sam,,,,
+DeMar,,,,
+Cheick,,,,
+Gorgui,,,,
+Spencer,,,,
+Tyler,,,,
+Goran,,,,
+Goran,,,,
+Andre,,,,
+Jared,,,,
+Kevin,,,,
+Joel,,,,
+Joel,,,,
+James,,,,
+Tyreke,,,,
+Dante,,,,
+Derrick,,,,
+Raymond,,,,
+Terrance,,,,
+Yogi,,,,
+Bryn,,,,
+Evan,,,,
+Markelle,,,,
+Markelle,,,,
+Danilo,,,,
+Langston,,,,
+Marc,,,,
+Pau,,,,
+Rudy,,,,
+Paul,,,,
+Taj,,,,
+Rudy,,,,
+Aaron,,,,
+Eric,,,,
+Marcin,,,,
+Treveon,,,,
+Jerami,,,,
+Jerian,,,,
+Danny,,,,
+Draymond,,,,
+Gerald,,,,
+JaMychal,,,,
+Jeff,,,,
+Blake,,,,
+Tim,,,,
+James,,,,
+Maurice,,,,
+Montrezl,,,,
+Devin,,,,
+Gary,,,,
+Joe,,,,
+Tobias,,,,
+Josh,,,,
+Gordon,,,,
+John,,,,
+Willy,,,,
+Mario,,,,
+Buddy,,,,
+George,,,,
+Solomon,,,,
+Jrue,,,,
+Justin,,,,
+John,,,,
+Rodney,,,,
+Al,,,,
+Serge,,,,
+Andre,,,,
+Ersan,,,,
+Joe,,,,
+Brandon,,,,
+Kyrie,,,,
+Jonathan,,,,
+Josh,,,,
+Justin,,,,
+Reggie,,,,
+LeBron,,,,
+Jonas,,,,
+Amir,,,,
+Amir,,,,
+Tyler,,,,
+Tyler,,,,
+Nikola,,,,
+Damian,,,,
+Derrick,,,,
+Derrick,,,,
+Tyus,,,,
+DeAndre,,,,
+Cory,,,,
+Enes,,,,
+Luke,,,,
+Maxi,,,,
+Furkan,,,,
+Furkan,,,,
+Kyle,,,,
+Kyle,,,,
+Jeremy,,,,
+Zach,,,,
+Jake,,,,
+Alex,,,,
+Kawhi,,,,
+Meyers,,,,
+Caris,,,,
+Damian,,,,
+Jeremy,,,,
+Shaun,,,,
+Kevon,,,,
+Brook,,,,
+Robin,,,,
+Kevin,,,,
+Kyle,,,,
+Trey,,,,
+Shelvin,,,,
+Ian,,,,
+Boban,,,,
+Frank,,,,
+Wesley,,,,
+CJ,,,,
+Doug,,,,
+JaVale,,,,
+Rodney,,,,
+Rodney,,,,
+Alfonzo,,,,
+Khris,,,,
+Darius,,,,
+Patty,,,,
+Paul,,,,
+Nikola,,,,
+Donovan,,,,
+Malik,,,,
+Marcus,,,,
+Markieff,,,,
+Monte,,,,
+Jamal,,,,
+Georges,,,,
+Nerlens,,,,
+Frank,,,,
+Jusuf,,,,
+David,,,,
+Semi,,,,
+Jahlil,,,,
+Victor,,,,
+Kelly,,,,
+Kelly,,,,
+Cedi,,,,
+Kelly,,,,
+Zaza,,,,
+Jabari,,,,
+Tony,,,,
+Chandler,,,,
+Patrick,,,,
+Chris,,,,
+Cameron,,,,
+Elfrid,,,,
+Mason,,,,
+Miles,,,,
+Jakob,,,,
+Otto,,,,
+Bobby,,,,
+Dwight,,,,
+Norman,,,,
+Alex,,,,
+Julius,,,,
+Josh,,,,
+Josh,,,,
+Malachi,,,,
+Austin,,,,
+Glenn,,,,
+Rajon,,,,
+Derrick,,,,
+Terrence,,,,
+Terry,,,,
+Ricky,,,,
+Domantas,,,,
+Dario,,,,
+Dario,,,,
+Tomas,,,,
+Dennis,,,,
+Mike,,,,
+Wayne,,,,
+Iman,,,,
+Pascal,,,,
+Ben,,,,
+Ben,,,,
+Jonathon,,,,
+Marcus,,,,
+Dennis,,,,
+Ish,,,,
+Jason,,,,
+Tony,,,,
+Nik,,,,
+Lance,,,,
+Edmond,,,,
+Jayson,,,,
+Jeff,,,,
+Garrett,,,,
+Daniel,,,,
+Lance,,,,
+Klay,,,,
+Tristan,,,,
+Anthony,,,,
+Evan,,,,
+Myles,,,,
+Tyler,,,,
+Jonas,,,,
+Fred,,,,
+Noah,,,,
+Nikola,,,,
+Dwyane,,,,
+Dwyane,,,,
+Kemba,,,,
+John,,,,
+Hassan,,,,
+Hassan,,,,
+Andrew,,,,
+Lou,,,,
+Marvin,,,,
+Guerschon,,,,
+Thaddeus,,,,
+Cody,,,,
+Ante,,,,
+JJ,,,,
+TJ,,,,
+Landry,,,,
+Jonah,,,,
+Brad,,,,
+Hamidou,,,,
+Donte,,,,
+Christian,,,,
+Michael,,,,
+Miles,,,,
+DAngelo,,,,
+Rodions,,,,
+Bruce,,,,
+Zach,,,,
+Jaren,,,,
+TJ,,,,
+Aaron,,,,
+Kyle,,,,
+DJ,,,,
+Mohamed,,,,
+Taurean,,,,
+Trae,,,,
+DeAndre,,,,
+Omari,,,,
+Kevin,,,,
+Jaylen,,,,
+Kevin,,,,
+Mitchell,,,,
+Allonzo,,,,
+Collin,,,,
+CJ,,,,
+ETwaun,,,,
+Kenrich,,,,
+Frank,,,,
+PJ,,,,
+Michael,,,,
+Gary,,,,
+Isaiah,,,,
+KarlAnthony,,,,
+Royce,,,,
+Willie,,,,
+DeAaron,,,,
+Marvin,,,,
+Harry,,,,
+Juancho,,,,
+Shai,,,,
+Luc,,,,
+Dorian,,,,
+Luka,,,,
+JJ,,,,
+Ryan,,,,
+Jalen,,,,
+Ray,,,,
+Deandre,,,,
+TJ,,,,
+Elie,,,,
+Mikal,,,,
+TJ,,,,
+JJ,,,,
+Landry,,,,
+Jonah,,,,
+Kentavious,,,,
+AlFarouq,,,,
+Seth,,,,
+>>>>>>>,,,,

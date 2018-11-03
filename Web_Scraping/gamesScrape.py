@@ -26,11 +26,7 @@ game_counter = a counter that will append the game number to the main_dataframe
 
 browser = webdriver.Chrome(r'F:\Projects\NBA\chromedriver_win32\chromedriver.exe')
 main_dataframe = pd.DataFrame()
-<<<<<<< HEAD
-game_counter =  17
-=======
-game_counter =  1
->>>>>>> deef077d49b388f0dd75d4c258f43367fb8790e1
+game_counter =  82
 
 #This function will pull up the correct webpage and feed that browser object to the stats and games functions. 
 def webpull(url):
@@ -92,11 +88,8 @@ def dataframe_merge(dataframe):
     main_dataframe = main_dataframe.append(dataframe)
     dataframe.drop(dataframe.index, inplace=True)
 
-<<<<<<< HEAD
-for i in range(16,82):
-=======
-for i in range(16):
->>>>>>> deef077d49b388f0dd75d4c258f43367fb8790e1
+#The second number in the range category should match the last number in the nba stats url
+for i in range(82,124):
      if i < 9:
          time.sleep(1)
          webpull('http://stats.nba.com/game/002180000{}/'.format(i + 1))
